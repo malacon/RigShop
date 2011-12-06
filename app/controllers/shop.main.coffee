@@ -3,7 +3,9 @@ Manager = require('spine/lib/manager')
 List    = require('lib/list')
 $       = Spine.$
 
-Item  = require('models/item')
+ShelfItem  = require('models/shelfItem')
+Item = require('models/item')
+Card = require('models/card')
 
 $.fn.serializeForm = ->
   result = {}
@@ -162,11 +164,10 @@ class Cart extends Spine.Controller
     $('img').hide()
 
   render: =>
-    items = Item.purchased()
-    @log(Item.allToString())
+    items = ShelfItem.purchased()
     @list.render(items)
     $('img').hide()
-    totalCost = Item.calculateTotal()
+    totalCost = ShelfItem.calculateTotal()
     @total.html(require('views/total')(totalCost))
 
 
@@ -236,7 +237,7 @@ class Checkout extends Spine.Controller
       @render()
 
   render: =>
-    items = Item.purchased()
+    items = ShelfItem.purchased()
     @list.render(items)
     totalCost = Item.calculateTotal()
     @total.html(require('views/total')(totalCost))
@@ -244,7 +245,7 @@ class Checkout extends Spine.Controller
   submit: (e) ->
     e.preventDefault()
     params = @form.serializeForm()
-    params.items = JSON.stringify(Item.purchased())
+    params.items = JSON.stringify(ShelfItem.purchased())
     #@log(params)
     # Check to see if params meet requirements, else throw error
 

@@ -16,11 +16,26 @@ class ShelfItem extends Spine.Model
   # Return an instance
   findInstance: (value, name = "id") ->
     @items
-
+  
   allInstances: ->
     @items
 
-  @endpoint: location.protocol + '//' + location.host + ':' + location.port
+  @calculateTotal: ->
+    totalCost = 0
+    for key, shelfItem of @records
+        for item in shelfItem.items
+          totalCost += item.calculateCost()
+    totalCost
+  
+  @purchased: ->
+
+  @filter: (query) ->
+    return @all() unless query
+    query = query.toLowerCase()
+    @select (item) ->
+      item.type?.toLowerCase().indexOf(query) isnt -1
+
+  @endpoint: location.protocol + '//' + location.host 
 
   @fetch: ->
     $.getJSON(@endpoint, (res) => @refresh(res, clear: true))

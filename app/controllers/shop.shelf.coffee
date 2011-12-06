@@ -3,7 +3,7 @@ Manager = require('spine/lib/manager')
 List    = require('lib/list')
 $       = Spine.$
 
-Item  = require('models/item')
+ShelfItem  = require('models/shelfItem')
 
 class Shelf extends Spine.Controller
   elements:
@@ -27,14 +27,14 @@ class Shelf extends Spine.Controller
 
       @active (params) -> 
         #@log(params)
-        list.change(Item.find(params.id))
+        list.change(ShelfItem.find(params.id))
 
-    Item.bind('refresh change', @render)
+    ShelfItem.bind('refresh change', @render)
 
   render: =>
     for type in @types
       list = @list[type]
-      items = Item.filter(type)
+      items = ShelfItem.filter(type)
       #list.removeActive()
       list.render(items)
 

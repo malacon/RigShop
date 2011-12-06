@@ -1,0 +1,2125 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install', '.' ]
+info using npm@1.0.106
+info using node@v0.6.3
+verbose config file /home/craigb/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+silly testEngine { name: 'app',
+silly testEngine   version: '0.0.1',
+silly testEngine   engines: { node: '*' },
+silly testEngine   dependencies: 
+silly testEngine    { ace: '~0.0.1',
+silly testEngine      hem: '~0.0.6',
+silly testEngine      'es5-shimify': '~0.0.1',
+silly testEngine      json2ify: '~0.0.1',
+silly testEngine      jqueryify: '~0.0.1',
+silly testEngine      spine: '~0.0.5' },
+silly testEngine   _id: 'app@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /home/craigb/Desktop/Projects/shop/package.json
+verbose loadDefaults app@0.0.1
+verbose where, deps [ '/home/craigb/Desktop/Projects/shop',
+verbose where, deps   [ 'ace', 'hem', 'es5-shimify', 'json2ify', 'jqueryify', 'spine' ] ]
+verbose from cache /home/craigb/Desktop/Projects/shop/package.json
+info preinstall app@0.0.1
+verbose from cache /home/craigb/Desktop/Projects/shop/package.json
+verbose into /home/craigb/Desktop/Projects/shop [ 'ace@~0.0.1',
+verbose into /home/craigb/Desktop/Projects/shop   'hem@~0.0.6',
+verbose into /home/craigb/Desktop/Projects/shop   'es5-shimify@~0.0.1',
+verbose into /home/craigb/Desktop/Projects/shop   'json2ify@~0.0.1',
+verbose into /home/craigb/Desktop/Projects/shop   'jqueryify@~0.0.1',
+verbose into /home/craigb/Desktop/Projects/shop   'spine@~0.0.5' ]
+verbose cache add ace@~0.0.1
+verbose cache add [ 'ace@~0.0.1', null ]
+silly cache add: name, spec, args [ undefined, 'ace@~0.0.1', [ 'ace@~0.0.1', null ] ]
+verbose parsed url { pathname: 'ace@~0.0.1',
+verbose parsed url   path: 'ace@~0.0.1',
+verbose parsed url   href: 'ace@~0.0.1' }
+silly cache add: name, spec, args [ 'ace', '~0.0.1', [ 'ace', '~0.0.1' ] ]
+verbose parsed url { pathname: '~0.0.1', path: '~0.0.1', href: '~0.0.1' }
+info addNamed [ 'ace', '~0.0.1' ]
+verbose addNamed [ null, '>=0.0.1- <0.1.0-' ]
+verbose cache add hem@~0.0.6
+verbose cache add [ 'hem@~0.0.6', null ]
+silly cache add: name, spec, args [ undefined, 'hem@~0.0.6', [ 'hem@~0.0.6', null ] ]
+verbose parsed url { pathname: 'hem@~0.0.6',
+verbose parsed url   path: 'hem@~0.0.6',
+verbose parsed url   href: 'hem@~0.0.6' }
+silly cache add: name, spec, args [ 'hem', '~0.0.6', [ 'hem', '~0.0.6' ] ]
+verbose parsed url { pathname: '~0.0.6', path: '~0.0.6', href: '~0.0.6' }
+info addNamed [ 'hem', '~0.0.6' ]
+verbose addNamed [ null, '>=0.0.6- <0.1.0-' ]
+verbose cache add es5-shimify@~0.0.1
+verbose cache add [ 'es5-shimify@~0.0.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'es5-shimify@~0.0.1',
+silly cache add: name, spec, args   [ 'es5-shimify@~0.0.1', null ] ]
+verbose parsed url { pathname: 'es5-shimify@~0.0.1',
+verbose parsed url   path: 'es5-shimify@~0.0.1',
+verbose parsed url   href: 'es5-shimify@~0.0.1' }
+silly cache add: name, spec, args [ 'es5-shimify', '~0.0.1', [ 'es5-shimify', '~0.0.1' ] ]
+verbose parsed url { pathname: '~0.0.1', path: '~0.0.1', href: '~0.0.1' }
+info addNamed [ 'es5-shimify', '~0.0.1' ]
+verbose addNamed [ null, '>=0.0.1- <0.1.0-' ]
+verbose cache add json2ify@~0.0.1
+verbose cache add [ 'json2ify@~0.0.1', null ]
+silly cache add: name, spec, args [ undefined, 'json2ify@~0.0.1', [ 'json2ify@~0.0.1', null ] ]
+verbose parsed url { pathname: 'json2ify@~0.0.1',
+verbose parsed url   path: 'json2ify@~0.0.1',
+verbose parsed url   href: 'json2ify@~0.0.1' }
+silly cache add: name, spec, args [ 'json2ify', '~0.0.1', [ 'json2ify', '~0.0.1' ] ]
+verbose parsed url { pathname: '~0.0.1', path: '~0.0.1', href: '~0.0.1' }
+info addNamed [ 'json2ify', '~0.0.1' ]
+verbose addNamed [ null, '>=0.0.1- <0.1.0-' ]
+verbose cache add jqueryify@~0.0.1
+verbose cache add [ 'jqueryify@~0.0.1', null ]
+silly cache add: name, spec, args [ undefined, 'jqueryify@~0.0.1', [ 'jqueryify@~0.0.1', null ] ]
+verbose parsed url { pathname: 'jqueryify@~0.0.1',
+verbose parsed url   path: 'jqueryify@~0.0.1',
+verbose parsed url   href: 'jqueryify@~0.0.1' }
+silly cache add: name, spec, args [ 'jqueryify', '~0.0.1', [ 'jqueryify', '~0.0.1' ] ]
+verbose parsed url { pathname: '~0.0.1', path: '~0.0.1', href: '~0.0.1' }
+info addNamed [ 'jqueryify', '~0.0.1' ]
+verbose addNamed [ null, '>=0.0.1- <0.1.0-' ]
+verbose cache add spine@~0.0.5
+verbose cache add [ 'spine@~0.0.5', null ]
+silly cache add: name, spec, args [ undefined, 'spine@~0.0.5', [ 'spine@~0.0.5', null ] ]
+verbose parsed url { pathname: 'spine@~0.0.5',
+verbose parsed url   path: 'spine@~0.0.5',
+verbose parsed url   href: 'spine@~0.0.5' }
+silly cache add: name, spec, args [ 'spine', '~0.0.5', [ 'spine', '~0.0.5' ] ]
+verbose parsed url { pathname: '~0.0.5', path: '~0.0.5', href: '~0.0.5' }
+info addNamed [ 'spine', '~0.0.5' ]
+verbose addNamed [ null, '>=0.0.5- <0.1.0-' ]
+verbose GET hem
+verbose raw, before any munging hem
+verbose url resolving [ 'https://registry.npmjs.org/', './hem' ]
+verbose url resolved https://registry.npmjs.org/hem
+verbose etag "5HDEFVGX1ITL4AONAAYE19GZM"
+verbose GET es5-shimify
+verbose raw, before any munging es5-shimify
+verbose url resolving [ 'https://registry.npmjs.org/', './es5-shimify' ]
+verbose url resolved https://registry.npmjs.org/es5-shimify
+verbose etag "6PKJKQOQ9OOJPV283ZR43KNNO"
+verbose GET jqueryify
+verbose raw, before any munging jqueryify
+verbose url resolving [ 'https://registry.npmjs.org/', './jqueryify' ]
+verbose url resolved https://registry.npmjs.org/jqueryify
+verbose etag "91XWI25YNW1AYPH5WVQGPTHLR"
+verbose GET ace
+verbose raw, before any munging ace
+verbose url resolving [ 'https://registry.npmjs.org/', './ace' ]
+verbose url resolved https://registry.npmjs.org/ace
+verbose etag "BP2YSTATY6A8R02XHEUP8F4RQ"
+verbose GET spine
+verbose raw, before any munging spine
+verbose url resolving [ 'https://registry.npmjs.org/', './spine' ]
+verbose url resolved https://registry.npmjs.org/spine
+verbose etag "P6IA75RZ9O4HX6LMR9M9VJ27"
+verbose GET json2ify
+verbose raw, before any munging json2ify
+verbose url resolving [ 'https://registry.npmjs.org/', './json2ify' ]
+verbose url resolved https://registry.npmjs.org/json2ify
+verbose etag "1JYSAVSS4R2OSYOEEPWEHN8G1"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"5HDEFVGX1ITL4AONAAYE19GZM"',
+silly get cb     date: 'Tue, 06 Dec 2011 13:07:32 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag hem from cache
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"7KWLSXM3ATMSCIF5YS7YJC2U0"',
+silly get cb     date: 'Tue, 06 Dec 2011 13:07:32 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1247' } ]
+verbose GET hem/0.0.9
+verbose raw, before any munging hem/0.0.9
+verbose url resolving [ 'https://registry.npmjs.org/', './hem/0.0.9' ]
+verbose url resolved https://registry.npmjs.org/hem/0.0.9
+verbose etag "DUJQ3TJBPAB5N6ZYP59CJHE1P"
+verbose GET ace/0.0.1
+verbose raw, before any munging ace/0.0.1
+verbose url resolving [ 'https://registry.npmjs.org/', './ace/0.0.1' ]
+verbose url resolved https://registry.npmjs.org/ace/0.0.1
+verbose etag "BP2YSTATY6A8R02XHEUP8F4RQ"
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"4I0I24BN2RQKDOON3UYJCJ6WT"',
+silly get cb     date: 'Tue, 06 Dec 2011 13:07:32 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1913' } ]
+verbose GET jqueryify/0.0.2
+verbose raw, before any munging jqueryify/0.0.2
+verbose url resolving [ 'https://registry.npmjs.org/', './jqueryify/0.0.2' ]
+verbose url resolved https://registry.npmjs.org/jqueryify/0.0.2
+verbose etag "91XWI25YNW1AYPH5WVQGPTHLR"
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"EWVFHYO8H554NJPP8MJ900VXJ"',
+silly get cb     date: 'Tue, 06 Dec 2011 13:07:32 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1209' } ]
+verbose GET es5-shimify/0.0.1
+verbose raw, before any munging es5-shimify/0.0.1
+verbose url resolving [ 'https://registry.npmjs.org/', './es5-shimify/0.0.1' ]
+verbose url resolved https://registry.npmjs.org/es5-shimify/0.0.1
+verbose etag "6PKJKQOQ9OOJPV283ZR43KNNO"
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"C9EJXZWN9E6Q0KCURZF658RPX"',
+silly get cb     date: 'Tue, 06 Dec 2011 13:07:32 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '9837' } ]
+verbose GET spine/0.0.9
+verbose raw, before any munging spine/0.0.9
+verbose url resolving [ 'https://registry.npmjs.org/', './spine/0.0.9' ]
+verbose url resolved https://registry.npmjs.org/spine/0.0.9
+verbose etag "P6IA75RZ9O4HX6LMR9M9VJ27"
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"4I0I24BN2RQKDOON3UYJCJ6WT"',
+silly get cb     date: 'Tue, 06 Dec 2011 13:07:32 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '682' } ]
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"7KWLSXM3ATMSCIF5YS7YJC2U0"',
+silly get cb     date: 'Tue, 06 Dec 2011 13:07:32 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '882' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8k-v83.6.6.8-linux-ia32-2.6.32-33-generic',
+verbose bin dist   { shasum: 'd4f9f9764e976772ab467c800f660b9adb890100',
+verbose bin dist     tarball: 'http://registry.npmjs.org/jqueryify/-/jqueryify-0.0.2.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/jqueryify/-/jqueryify-0.0.2.tgz',
+verbose addRemoteTarball   'd4f9f9764e976772ab467c800f660b9adb890100' ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8k-v83.6.6.8-linux-ia32-2.6.32-33-generic',
+verbose bin dist   { shasum: '1f93177ec90120ffebf233ef56388c176d8d67c2',
+verbose bin dist     tarball: 'http://registry.npmjs.org/ace/-/ace-0.0.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/ace/-/ace-0.0.1.tgz',
+verbose addRemoteTarball   '1f93177ec90120ffebf233ef56388c176d8d67c2' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051'
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849051-0.9150356249883771'
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849052-0.7236419792752713'
+verbose mkdir done: /tmp/npm-1323176849051/1323176849051-0.9150356249883771 755
+verbose mkdir done: /tmp/npm-1323176849051/1323176849052-0.7236419792752713 755
+info fetch https://registry.npmjs.org/jqueryify/-/jqueryify-0.0.2.tgz
+verbose fetch to /tmp/npm-1323176849051/1323176849051-0.9150356249883771/tmp.tgz
+info fetch https://registry.npmjs.org/ace/-/ace-0.0.1.tgz
+verbose fetch to /tmp/npm-1323176849051/1323176849052-0.7236419792752713/tmp.tgz
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"5HDEFVGX1ITL4AONAAYE19GZM"',
+silly get cb     date: 'Tue, 06 Dec 2011 13:07:32 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '977' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8k-v83.6.6.8-linux-ia32-2.6.32-33-generic',
+verbose bin dist   { shasum: '7815496b045b3b3d2a93ac7c53944782bae9860e',
+verbose bin dist     tarball: 'http://registry.npmjs.org/hem/-/hem-0.0.9.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/hem/-/hem-0.0.9.tgz',
+verbose addRemoteTarball   '7815496b045b3b3d2a93ac7c53944782bae9860e' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849067-0.9307565710041672'
+verbose mkdir done: /tmp/npm-1323176849051/1323176849067-0.9307565710041672 755
+info fetch https://registry.npmjs.org/hem/-/hem-0.0.9.tgz
+verbose fetch to /tmp/npm-1323176849051/1323176849067-0.9307565710041672/tmp.tgz
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"3Q9BGQZEY9TIEPLZZ2A95BZQC"',
+silly get cb     date: 'Tue, 06 Dec 2011 13:07:32 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1170' } ]
+verbose GET json2ify/0.0.1
+verbose raw, before any munging json2ify/0.0.1
+verbose url resolving [ 'https://registry.npmjs.org/', './json2ify/0.0.1' ]
+verbose url resolved https://registry.npmjs.org/json2ify/0.0.1
+verbose etag "1JYSAVSS4R2OSYOEEPWEHN8G1"
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"EWVFHYO8H554NJPP8MJ900VXJ"',
+silly get cb     date: 'Tue, 06 Dec 2011 13:07:32 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '785' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8k-v83.6.6.8-linux-ia32-2.6.32-33-generic',
+verbose bin dist   { shasum: 'f1a92bbc3e75d7dc3d74259e66f63016a44033d4',
+verbose bin dist     tarball: 'http://registry.npmjs.org/es5-shimify/-/es5-shimify-0.0.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/es5-shimify/-/es5-shimify-0.0.1.tgz',
+verbose addRemoteTarball   'f1a92bbc3e75d7dc3d74259e66f63016a44033d4' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849375-0.5914722946472466'
+verbose mkdir done: /tmp/npm-1323176849051/1323176849375-0.5914722946472466 755
+info fetch https://registry.npmjs.org/es5-shimify/-/es5-shimify-0.0.1.tgz
+verbose fetch to /tmp/npm-1323176849051/1323176849375-0.5914722946472466/tmp.tgz
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"C9EJXZWN9E6Q0KCURZF658RPX"',
+silly get cb     date: 'Tue, 06 Dec 2011 13:07:33 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '803' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8k-v83.6.6.8-linux-ia32-2.6.32-33-generic',
+verbose bin dist   { shasum: '59c66f0932b7705c49dbf82c45676e789d90eec0',
+verbose bin dist     tarball: 'http://registry.npmjs.org/spine/-/spine-0.0.9.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/spine/-/spine-0.0.9.tgz',
+verbose addRemoteTarball   '59c66f0932b7705c49dbf82c45676e789d90eec0' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849609-0.390310883987695'
+verbose mkdir done: /tmp/npm-1323176849051/1323176849609-0.390310883987695 755
+info fetch https://registry.npmjs.org/spine/-/spine-0.0.9.tgz
+verbose fetch to /tmp/npm-1323176849051/1323176849609-0.390310883987695/tmp.tgz
+silly updated sha bytes 1341
+info shasum 1f93177ec90120ffebf233ef56388c176d8d67c2
+info shasum /tmp/npm-1323176849051/1323176849052-0.7236419792752713/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents'
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/___package.npm'
+verbose mkdir done: /tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/tmp/npm-1323176849051/1323176849052-0.7236419792752713/tmp.tgz' ],
+silly spawning   '/tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/___package.npm' ]
+silly tar out package/.gitignore
+silly tar out package/index.js
+silly tar out package/LICENSE
+silly tar out package/package.json
+silly tar exit 0
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/___package.npm/package/.gitignore
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/___package.npm/package/LICENSE
+verbose gunzed /tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/___package.npm/package
+verbose rm'ed /tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/package
+verbose renamed [ '/tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/___package.npm/package',
+verbose renamed   '/tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/package' ]
+silly testEngine { name: 'ace',
+silly testEngine   description: 'Simple static server.',
+silly testEngine   version: '0.0.1',
+silly testEngine   author: { name: 'maccman' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'https://github.com/maccman/ace/blob/master/LICENSE' } ],
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/ace.git' },
+silly testEngine   engine: [ 'node >=0.1.102' ],
+silly testEngine   main: './index.js',
+silly testEngine   bin: { ace: './index.js' },
+silly testEngine   dependencies: { express: '~2.4.3', optimist: '~0.2.6' },
+silly testEngine   _id: 'ace@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/package' }
+verbose caching /tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/package/package.json
+verbose loadDefaults ace@0.0.1
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/package/package.json
+verbose pack /tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/package /home/craigb/.npm/ace/0.0.1/package.tgz
+silly makeList /tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents/package
+verbose mkdir'ed /home/craigb/.npm/ace/0.0.1
+verbose tar about to write tar and gzip it.
+silly tar args [ '-czvf', '-', '-T', '-' ]
+silly spawning [ 'tar',
+silly spawning   [ '-czvf', '-', '-T', '-' ],
+silly spawning   '/tmp/npm-1323176849051/1323176849052-0.7236419792752713/contents' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/.npm/ace/0.0.1/___package.npm'
+verbose mkdir done: /home/craigb/.npm/ace/0.0.1/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/craigb/.npm/ace/0.0.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/craigb/.npm/ace/0.0.1/package.tgz' ],
+silly spawning   '/home/craigb/.npm/ace/0.0.1/___package.npm' ]
+silly tar out package/index.js
+silly tar out package/package.json
+silly tar out package/.gitignore
+silly tar out package/LICENSE
+silly tar exit 0
+silly asyncMap in gTP /home/craigb/.npm/ace/0.0.1/___package.npm/package
+silly asyncMap in gTP /home/craigb/.npm/ace/0.0.1/___package.npm/package/index.js
+silly asyncMap in gTP /home/craigb/.npm/ace/0.0.1/___package.npm/package/package.json
+silly asyncMap in gTP /home/craigb/.npm/ace/0.0.1/___package.npm/package/.gitignore
+silly asyncMap in gTP /home/craigb/.npm/ace/0.0.1/___package.npm/package/LICENSE
+verbose gunzed /home/craigb/.npm/ace/0.0.1/___package.npm/package
+verbose rm'ed /home/craigb/.npm/ace/0.0.1/package
+verbose renamed [ '/home/craigb/.npm/ace/0.0.1/___package.npm/package',
+verbose renamed   '/home/craigb/.npm/ace/0.0.1/package' ]
+silly testEngine { name: 'ace',
+silly testEngine   description: 'Simple static server.',
+silly testEngine   version: '0.0.1',
+silly testEngine   author: { name: 'maccman' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'https://github.com/maccman/ace/blob/master/LICENSE' } ],
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/ace.git' },
+silly testEngine   engine: [ 'node >=0.1.102' ],
+silly testEngine   main: './index.js',
+silly testEngine   bin: { ace: './index.js' },
+silly testEngine   dependencies: { express: '~2.4.3', optimist: '~0.2.6' },
+silly testEngine   _id: 'ace@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: 'e24816414b4021d67fb1034016fe0bdd287c89ff' },
+silly testEngine   scripts: {} }
+verbose caching /home/craigb/.npm/ace/0.0.1/package/package.json
+verbose loadDefaults ace@0.0.1
+silly updated sha bytes 1332
+info shasum e24816414b4021d67fb1034016fe0bdd287c89ff
+info shasum /home/craigb/.npm/ace/0.0.1/package.tgz
+verbose from cache /home/craigb/.npm/ace/0.0.1/package/package.json
+verbose chmod /home/craigb/.npm/ace/0.0.1/package.tgz 644
+verbose chown [ '/home/craigb/.npm/ace/0.0.1/package.tgz', 1000, 1000 ]
+silly updated sha bytes 40960
+silly updated sha bytes 1923
+info shasum 7815496b045b3b3d2a93ac7c53944782bae9860e
+info shasum /tmp/npm-1323176849051/1323176849067-0.9307565710041672/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents'
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm'
+verbose mkdir done: /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/tmp/npm-1323176849051/1323176849067-0.9307565710041672/tmp.tgz' ],
+silly spawning   '/tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm' ]
+silly tar out package/.gitignore
+silly tar out package/Cakefile
+silly tar out package/LICENSE
+silly tar out package/package.json
+silly tar out package/README.md
+silly tar out package/assets/stitch.eco
+silly tar out package/bin/hem
+silly tar out package/lib/compilers.js
+silly tar out package/lib/dependencies.js
+silly tar out package/lib/dependency.js
+silly tar out package/lib/hem.js
+silly tar out package/lib/resolve.js
+silly tar out package/lib/slug.js
+silly tar out package/lib/stitch.js
+silly tar out package/lib/stylus.js
+silly tar out package/lib/utils.js
+silly tar out package/src/compilers.coffee
+silly tar out package/src/dependency.coffee
+silly tar out package/src/hem.coffee
+silly tar out package/src/resolve.coffee
+silly tar out package/src/slug.coffee
+silly tar out package/src/stitch.coffee
+silly tar out package/src/stylus.coffee
+silly tar out package/src/utils.coffee
+silly tar out package/examples/slug.json
+silly tar out package/examples/css/index.styl
+silly tar out package/examples/lib/custom.js
+silly tar out package/examples/public/application.css
+silly tar out package/examples/public/application.js
+silly tar out package/examples/public/index.html
+silly tar out package/examples/app/index.coffee
+silly tar out package/examples/app/controllers/test.coffee
+silly tar exit 0
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/README.md
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/.gitignore
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/LICENSE
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/Cakefile
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/lib
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/lib/compilers.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/lib/utils.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/lib/dependencies.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/lib/resolve.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/lib/dependency.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/lib/slug.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/lib/stitch.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/lib/hem.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/lib/stylus.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/assets
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/assets/stitch.eco
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/bin
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/bin/hem
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/src
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/src/dependency.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/src/slug.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/src/stylus.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/src/hem.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/src/utils.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/src/resolve.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/src/compilers.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/src/stitch.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/examples
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/examples/slug.json
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/examples/lib
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/examples/lib/custom.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/examples/public
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/examples/public/application.css
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/examples/public/index.html
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/examples/public/application.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/examples/css
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/examples/css/index.styl
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/examples/app
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/examples/app/index.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/examples/app/controllers
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package/examples/app/controllers/test.coffee
+verbose gunzed /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package
+verbose rm'ed /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/package
+verbose renamed [ '/tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/___package.npm/package',
+verbose renamed   '/tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/package' ]
+silly testEngine { name: 'hem',
+silly testEngine   description: 'CommonJS stitcher.',
+silly testEngine   version: '0.0.9',
+silly testEngine   author: { name: 'maccman' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'https://github.com/maccman/hem/blob/master/LICENSE' } ],
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/hem.git' },
+silly testEngine   engine: [ 'node >=0.1.102' ],
+silly testEngine   main: './lib/hem.js',
+silly testEngine   bin: { hem: './bin/hem' },
+silly testEngine   dependencies: 
+silly testEngine    { eco: '1.1.0-rc-1',
+silly testEngine      'uglify-js': '~1.0.7',
+silly testEngine      express: '~2.4.6',
+silly testEngine      'fast-detective': '~0.0.1',
+silly testEngine      optimist: '~0.2.6',
+silly testEngine      'coffee-script': '~1.1.2',
+silly testEngine      stylus: '~0.15.1' },
+silly testEngine   _id: 'hem@0.0.9',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/package' }
+verbose caching /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/package/package.json
+verbose loadDefaults hem@0.0.9
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/package/package.json
+verbose pack /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/package /home/craigb/.npm/hem/0.0.9/package.tgz
+silly makeList /tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents/package
+verbose mkdir'ed /home/craigb/.npm/hem/0.0.9
+verbose tar about to write tar and gzip it.
+silly tar args [ '-czvf', '-', '-T', '-' ]
+silly spawning [ 'tar',
+silly spawning   [ '-czvf', '-', '-T', '-' ],
+silly spawning   '/tmp/npm-1323176849051/1323176849067-0.9307565710041672/contents' ]
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"3Q9BGQZEY9TIEPLZZ2A95BZQC"',
+silly get cb     date: 'Tue, 06 Dec 2011 13:07:33 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '761' } ]
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+info shasum d4f9f9764e976772ab467c800f660b9adb890100
+info shasum /tmp/npm-1323176849051/1323176849051-0.9150356249883771/tmp.tgz
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8k-v83.6.6.8-linux-ia32-2.6.32-33-generic',
+verbose bin dist   { shasum: 'f9b9ac1337e1e3734f60dd43c460615d9872691e',
+verbose bin dist     tarball: 'http://registry.npmjs.org/json2ify/-/json2ify-0.0.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/json2ify/-/json2ify-0.0.1.tgz',
+verbose addRemoteTarball   'f9b9ac1337e1e3734f60dd43c460615d9872691e' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849867-0.02425777167081833'
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents'
+verbose mkdir done: /tmp/npm-1323176849051/1323176849867-0.02425777167081833 755
+info fetch https://registry.npmjs.org/json2ify/-/json2ify-0.0.1.tgz
+verbose fetch to /tmp/npm-1323176849051/1323176849867-0.02425777167081833/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents/___package.npm'
+verbose mkdir done: /tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/tmp/npm-1323176849051/1323176849051-0.9150356249883771/tmp.tgz' ],
+silly spawning   '/tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents/___package.npm' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/.npm/hem/0.0.9/___package.npm'
+verbose mkdir done: /home/craigb/.npm/hem/0.0.9/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/craigb/.npm/hem/0.0.9/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/craigb/.npm/hem/0.0.9/package.tgz' ],
+silly spawning   '/home/craigb/.npm/hem/0.0.9/___package.npm' ]
+silly tar out package/index.js
+silly tar out package/package.json
+silly tar exit 0
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents/___package.npm/package/package.json
+verbose gunzed /tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents/___package.npm/package
+verbose rm'ed /tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents/package
+verbose renamed [ '/tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents/___package.npm/package',
+verbose renamed   '/tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents/package' ]
+silly testEngine { name: 'jqueryify',
+silly testEngine   description: 'jQuery lib for browsers',
+silly testEngine   version: '0.0.2',
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/jqueryify.git' },
+silly testEngine   author: { name: 'Alex MacCaw', email: 'info@eribium.org' },
+silly testEngine   engines: { node: '*' },
+silly testEngine   main: './index.js',
+silly testEngine   _id: 'jqueryify@0.0.2',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents/package' }
+verbose caching /tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents/package/package.json
+verbose loadDefaults jqueryify@0.0.2
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents/package/package.json
+verbose pack /tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents/package /home/craigb/.npm/jqueryify/0.0.2/package.tgz
+silly makeList /tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents/package
+verbose mkdir'ed /home/craigb/.npm/jqueryify/0.0.2
+verbose tar about to write tar and gzip it.
+silly tar args [ '-czvf', '-', '-T', '-' ]
+silly spawning [ 'tar',
+silly spawning   [ '-czvf', '-', '-T', '-' ],
+silly spawning   '/tmp/npm-1323176849051/1323176849051-0.9150356249883771/contents' ]
+silly tar out package/package.json
+silly tar out package/README.md
+silly tar out package/.gitignore
+silly tar out package/LICENSE
+silly tar out package/Cakefile
+silly tar out package/lib/compilers.js
+silly tar out package/lib/utils.js
+silly tar out package/lib/dependencies.js
+silly tar out package/lib/resolve.js
+silly tar out package/lib/dependency.js
+silly tar out package/lib/slug.js
+silly tar out package/lib/stitch.js
+silly tar out package/lib/hem.js
+silly tar out package/lib/stylus.js
+silly tar out package/assets/stitch.eco
+silly tar out package/bin/hem
+silly tar out package/src/dependency.coffee
+silly tar out package/src/slug.coffee
+silly tar out package/src/stylus.coffee
+silly tar out package/src/hem.coffee
+silly tar out package/src/utils.coffee
+silly tar out package/src/resolve.coffee
+silly tar out package/src/compilers.coffee
+silly tar out package/src/stitch.coffee
+silly tar out package/examples/slug.json
+silly tar out package/examples/lib/custom.js
+silly tar out package/examples/public/application.css
+silly tar out package/examples/public/index.html
+silly tar out package/examples/public/application.js
+silly tar out package/examples/css/index.styl
+silly tar out package/examples/app/index.coffee
+silly tar out package/examples/app/controllers/test.coffee
+silly tar exit 0
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/package.json
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/README.md
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/.gitignore
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/LICENSE
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/Cakefile
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/lib
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/lib/compilers.js
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/lib/utils.js
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/lib/dependencies.js
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/lib/resolve.js
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/lib/dependency.js
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/lib/slug.js
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/lib/stitch.js
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/lib/hem.js
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/lib/stylus.js
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/assets
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/assets/stitch.eco
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/bin
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/bin/hem
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/src
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/src/dependency.coffee
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/src/slug.coffee
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/src/stylus.coffee
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/src/hem.coffee
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/src/utils.coffee
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/src/resolve.coffee
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/src/compilers.coffee
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/src/stitch.coffee
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/examples
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/examples/slug.json
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/examples/lib
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/examples/lib/custom.js
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/examples/public
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/examples/public/application.css
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/examples/public/index.html
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/examples/public/application.js
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/examples/css
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/examples/css/index.styl
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/examples/app
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/examples/app/index.coffee
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/examples/app/controllers
+silly asyncMap in gTP /home/craigb/.npm/hem/0.0.9/___package.npm/package/examples/app/controllers/test.coffee
+verbose gunzed /home/craigb/.npm/hem/0.0.9/___package.npm/package
+verbose rm'ed /home/craigb/.npm/hem/0.0.9/package
+verbose renamed [ '/home/craigb/.npm/hem/0.0.9/___package.npm/package',
+verbose renamed   '/home/craigb/.npm/hem/0.0.9/package' ]
+silly testEngine { name: 'hem',
+silly testEngine   description: 'CommonJS stitcher.',
+silly testEngine   version: '0.0.9',
+silly testEngine   author: { name: 'maccman' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'https://github.com/maccman/hem/blob/master/LICENSE' } ],
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/hem.git' },
+silly testEngine   engine: [ 'node >=0.1.102' ],
+silly testEngine   main: './lib/hem.js',
+silly testEngine   bin: { hem: './bin/hem' },
+silly testEngine   dependencies: 
+silly testEngine    { eco: '1.1.0-rc-1',
+silly testEngine      'uglify-js': '~1.0.7',
+silly testEngine      express: '~2.4.6',
+silly testEngine      'fast-detective': '~0.0.1',
+silly testEngine      optimist: '~0.2.6',
+silly testEngine      'coffee-script': '~1.1.2',
+silly testEngine      stylus: '~0.15.1' },
+silly testEngine   _id: 'hem@0.0.9',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: '276b658c0a5d364fd1107102a326c83dac93f73d' },
+silly testEngine   scripts: {} }
+verbose caching /home/craigb/.npm/hem/0.0.9/package/package.json
+verbose loadDefaults hem@0.0.9
+silly updated sha bytes 40960
+silly updated sha bytes 2018
+info shasum 276b658c0a5d364fd1107102a326c83dac93f73d
+info shasum /home/craigb/.npm/hem/0.0.9/package.tgz
+verbose from cache /home/craigb/.npm/hem/0.0.9/package/package.json
+verbose chmod /home/craigb/.npm/hem/0.0.9/package.tgz 644
+verbose chown [ '/home/craigb/.npm/hem/0.0.9/package.tgz', 1000, 1000 ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/.npm/jqueryify/0.0.2/___package.npm'
+verbose mkdir done: /home/craigb/.npm/jqueryify/0.0.2/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/craigb/.npm/jqueryify/0.0.2/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/craigb/.npm/jqueryify/0.0.2/package.tgz' ],
+silly spawning   '/home/craigb/.npm/jqueryify/0.0.2/___package.npm' ]
+silly tar out package/index.js
+silly tar out package/package.json
+silly tar exit 0
+silly asyncMap in gTP /home/craigb/.npm/jqueryify/0.0.2/___package.npm/package
+silly asyncMap in gTP /home/craigb/.npm/jqueryify/0.0.2/___package.npm/package/index.js
+silly asyncMap in gTP /home/craigb/.npm/jqueryify/0.0.2/___package.npm/package/package.json
+verbose gunzed /home/craigb/.npm/jqueryify/0.0.2/___package.npm/package
+verbose rm'ed /home/craigb/.npm/jqueryify/0.0.2/package
+verbose renamed [ '/home/craigb/.npm/jqueryify/0.0.2/___package.npm/package',
+verbose renamed   '/home/craigb/.npm/jqueryify/0.0.2/package' ]
+silly testEngine { name: 'jqueryify',
+silly testEngine   description: 'jQuery lib for browsers',
+silly testEngine   version: '0.0.2',
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/jqueryify.git' },
+silly testEngine   author: { name: 'Alex MacCaw', email: 'info@eribium.org' },
+silly testEngine   engines: { node: '*' },
+silly testEngine   main: './index.js',
+silly testEngine   _id: 'jqueryify@0.0.2',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: 'e1252d1063109c71070035f3259aa43c400047d4' },
+silly testEngine   scripts: {} }
+verbose caching /home/craigb/.npm/jqueryify/0.0.2/package/package.json
+verbose loadDefaults jqueryify@0.0.2
+silly updated sha bytes 40960
+silly updated sha bytes 31822
+info shasum e1252d1063109c71070035f3259aa43c400047d4
+info shasum /home/craigb/.npm/jqueryify/0.0.2/package.tgz
+verbose from cache /home/craigb/.npm/jqueryify/0.0.2/package/package.json
+verbose chmod /home/craigb/.npm/jqueryify/0.0.2/package.tgz 644
+verbose chown [ '/home/craigb/.npm/jqueryify/0.0.2/package.tgz', 1000, 1000 ]
+silly updated sha bytes 8421
+info shasum f1a92bbc3e75d7dc3d74259e66f63016a44033d4
+info shasum /tmp/npm-1323176849051/1323176849375-0.5914722946472466/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents'
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents/___package.npm'
+verbose mkdir done: /tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/tmp/npm-1323176849051/1323176849375-0.5914722946472466/tmp.tgz' ],
+silly spawning   '/tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents/___package.npm' ]
+silly tar out package/index.js
+silly tar out package/package.json
+silly tar exit 0
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents/___package.npm/package/package.json
+verbose gunzed /tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents/___package.npm/package
+verbose rm'ed /tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents/package
+verbose renamed [ '/tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents/___package.npm/package',
+verbose renamed   '/tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents/package' ]
+silly testEngine { name: 'es5-shimify',
+silly testEngine   description: 'ES5-shim lib for browsers',
+silly testEngine   version: '0.0.1',
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/es5-shimify.git' },
+silly testEngine   author: { name: 'Alex MacCaw', email: 'info@eribium.org' },
+silly testEngine   engines: { node: '*' },
+silly testEngine   main: './index.js',
+silly testEngine   _id: 'es5-shimify@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents/package' }
+verbose caching /tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents/package/package.json
+verbose loadDefaults es5-shimify@0.0.1
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents/package/package.json
+verbose pack /tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents/package /home/craigb/.npm/es5-shimify/0.0.1/package.tgz
+silly makeList /tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents/package
+verbose mkdir'ed /home/craigb/.npm/es5-shimify/0.0.1
+verbose tar about to write tar and gzip it.
+silly tar args [ '-czvf', '-', '-T', '-' ]
+silly spawning [ 'tar',
+silly spawning   [ '-czvf', '-', '-T', '-' ],
+silly spawning   '/tmp/npm-1323176849051/1323176849375-0.5914722946472466/contents' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/.npm/es5-shimify/0.0.1/___package.npm'
+verbose mkdir done: /home/craigb/.npm/es5-shimify/0.0.1/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/craigb/.npm/es5-shimify/0.0.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/craigb/.npm/es5-shimify/0.0.1/package.tgz' ],
+silly spawning   '/home/craigb/.npm/es5-shimify/0.0.1/___package.npm' ]
+silly tar out package/index.js
+silly tar out package/package.json
+silly tar exit 0
+silly asyncMap in gTP /home/craigb/.npm/es5-shimify/0.0.1/___package.npm/package
+silly asyncMap in gTP /home/craigb/.npm/es5-shimify/0.0.1/___package.npm/package/index.js
+silly asyncMap in gTP /home/craigb/.npm/es5-shimify/0.0.1/___package.npm/package/package.json
+verbose gunzed /home/craigb/.npm/es5-shimify/0.0.1/___package.npm/package
+verbose rm'ed /home/craigb/.npm/es5-shimify/0.0.1/package
+verbose renamed [ '/home/craigb/.npm/es5-shimify/0.0.1/___package.npm/package',
+verbose renamed   '/home/craigb/.npm/es5-shimify/0.0.1/package' ]
+silly testEngine { name: 'es5-shimify',
+silly testEngine   description: 'ES5-shim lib for browsers',
+silly testEngine   version: '0.0.1',
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/es5-shimify.git' },
+silly testEngine   author: { name: 'Alex MacCaw', email: 'info@eribium.org' },
+silly testEngine   engines: { node: '*' },
+silly testEngine   main: './index.js',
+silly testEngine   _id: 'es5-shimify@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: 'd8aee4d21db6fc6aa0014417287e1a0609794b90' },
+silly testEngine   scripts: {} }
+verbose caching /home/craigb/.npm/es5-shimify/0.0.1/package/package.json
+verbose loadDefaults es5-shimify@0.0.1
+silly updated sha bytes 8415
+info shasum d8aee4d21db6fc6aa0014417287e1a0609794b90
+info shasum /home/craigb/.npm/es5-shimify/0.0.1/package.tgz
+verbose from cache /home/craigb/.npm/es5-shimify/0.0.1/package/package.json
+verbose chmod /home/craigb/.npm/es5-shimify/0.0.1/package.tgz 644
+verbose chown [ '/home/craigb/.npm/es5-shimify/0.0.1/package.tgz', 1000, 1000 ]
+silly updated sha bytes 5700
+info shasum f9b9ac1337e1e3734f60dd43c460615d9872691e
+info shasum /tmp/npm-1323176849051/1323176849867-0.02425777167081833/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents'
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents/___package.npm'
+verbose mkdir done: /tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/tmp/npm-1323176849051/1323176849867-0.02425777167081833/tmp.tgz' ],
+silly spawning   '/tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents/___package.npm' ]
+silly tar out package/index.js
+silly tar out package/package.json
+silly tar exit 0
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents/___package.npm/package/package.json
+verbose gunzed /tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents/___package.npm/package
+verbose rm'ed /tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents/package
+verbose renamed [ '/tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents/___package.npm/package',
+verbose renamed   '/tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents/package' ]
+silly testEngine { name: 'json2ify',
+silly testEngine   description: 'JSON2 lib for browsers',
+silly testEngine   version: '0.0.1',
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/json2.git' },
+silly testEngine   author: { name: 'Alex MacCaw', email: 'info@eribium.org' },
+silly testEngine   engines: { node: '*' },
+silly testEngine   main: './index.js',
+silly testEngine   _id: 'json2ify@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents/package' }
+verbose caching /tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents/package/package.json
+verbose loadDefaults json2ify@0.0.1
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents/package/package.json
+verbose pack /tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents/package /home/craigb/.npm/json2ify/0.0.1/package.tgz
+silly makeList /tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents/package
+verbose mkdir'ed /home/craigb/.npm/json2ify/0.0.1
+verbose tar about to write tar and gzip it.
+silly tar args [ '-czvf', '-', '-T', '-' ]
+silly spawning [ 'tar',
+silly spawning   [ '-czvf', '-', '-T', '-' ],
+silly spawning   '/tmp/npm-1323176849051/1323176849867-0.02425777167081833/contents' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/.npm/json2ify/0.0.1/___package.npm'
+verbose mkdir done: /home/craigb/.npm/json2ify/0.0.1/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/craigb/.npm/json2ify/0.0.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/craigb/.npm/json2ify/0.0.1/package.tgz' ],
+silly spawning   '/home/craigb/.npm/json2ify/0.0.1/___package.npm' ]
+silly tar out package/index.js
+silly tar out package/package.json
+silly tar exit 0
+silly asyncMap in gTP /home/craigb/.npm/json2ify/0.0.1/___package.npm/package
+silly asyncMap in gTP /home/craigb/.npm/json2ify/0.0.1/___package.npm/package/index.js
+silly asyncMap in gTP /home/craigb/.npm/json2ify/0.0.1/___package.npm/package/package.json
+verbose gunzed /home/craigb/.npm/json2ify/0.0.1/___package.npm/package
+verbose rm'ed /home/craigb/.npm/json2ify/0.0.1/package
+verbose renamed [ '/home/craigb/.npm/json2ify/0.0.1/___package.npm/package',
+verbose renamed   '/home/craigb/.npm/json2ify/0.0.1/package' ]
+silly testEngine { name: 'json2ify',
+silly testEngine   description: 'JSON2 lib for browsers',
+silly testEngine   version: '0.0.1',
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/json2.git' },
+silly testEngine   author: { name: 'Alex MacCaw', email: 'info@eribium.org' },
+silly testEngine   engines: { node: '*' },
+silly testEngine   main: './index.js',
+silly testEngine   _id: 'json2ify@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: '0841e30f2ef492a7e8a65766f945babd208bfa79' },
+silly testEngine   scripts: {} }
+verbose caching /home/craigb/.npm/json2ify/0.0.1/package/package.json
+verbose loadDefaults json2ify@0.0.1
+silly updated sha bytes 5694
+info shasum 0841e30f2ef492a7e8a65766f945babd208bfa79
+info shasum /home/craigb/.npm/json2ify/0.0.1/package.tgz
+verbose from cache /home/craigb/.npm/json2ify/0.0.1/package/package.json
+verbose chmod /home/craigb/.npm/json2ify/0.0.1/package.tgz 644
+verbose chown [ '/home/craigb/.npm/json2ify/0.0.1/package.tgz', 1000, 1000 ]
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 22272
+info shasum 59c66f0932b7705c49dbf82c45676e789d90eec0
+info shasum /tmp/npm-1323176849051/1323176849609-0.390310883987695/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849609-0.390310883987695/contents'
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm'
+verbose mkdir done: /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/tmp/npm-1323176849051/1323176849609-0.390310883987695/tmp.tgz' ],
+silly spawning   '/tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm' ]
+silly tar out package/Cakefile
+silly tar out package/.gitignore
+silly tar out package/index.html
+silly tar out package/index.js
+silly tar out package/LICENSE
+silly tar out package/package.json
+silly tar out package/README.md
+silly tar out package/examples/route.html
+silly tar out package/examples/jquery.js
+silly tar out package/lib/ajax.js
+silly tar out package/lib/list.js
+silly tar out package/lib/relation.js
+silly tar out package/lib/manager.js
+silly tar out package/lib/local.js
+silly tar out package/lib/route.js
+silly tar out package/lib/spine.js
+silly tar out package/lib/tabs.js
+silly tar out package/lib/tmpl.js
+silly tar out package/src/ajax.coffee
+silly tar out package/src/list.coffee
+silly tar out package/src/local.coffee
+silly tar out package/src/manager.coffee
+silly tar out package/src/relation.coffee
+silly tar out package/src/route.coffee
+silly tar out package/src/spine.coffee
+silly tar out package/src/tabs.coffee
+silly tar out package/src/tmpl.coffee
+silly tar out package/site/highlight.css
+silly tar out package/site/highlight.js
+silly tar out package/site/jquery.js
+silly tar out package/site/site.css
+silly tar out package/site/site.md
+silly tar out package/site/images/inheritance.png
+silly tar out package/test/ajax.html
+silly tar out package/test/index.html
+silly tar out package/test/persistance.html
+silly tar out package/test/route.html
+silly tar out package/test/lib/jasmine.css
+silly tar out package/test/lib/jasmine.html.js
+silly tar out package/test/lib/jasmine.js
+silly tar out package/test/lib/MIT.LICENSE
+silly tar out package/test/specs/ajax.js
+silly tar out package/test/specs/class.js
+silly tar out package/test/specs/controller.js
+silly tar out package/test/specs/events.js
+silly tar out package/test/specs/model.js
+silly tar out package/test/specs/model.local.js
+silly tar out package/test/specs/route.js
+silly tar exit 0
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/README.md
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/.gitignore
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/LICENSE
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/Cakefile
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/index.html
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/lib
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/lib/tmpl.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/lib/route.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/lib/spine.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/lib/relation.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/lib/manager.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/lib/ajax.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/lib/local.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/lib/list.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/lib/tabs.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/src
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/src/local.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/src/tabs.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/src/manager.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/src/route.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/src/list.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/src/tmpl.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/src/relation.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/src/ajax.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/src/spine.coffee
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/examples
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/examples/route.html
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/examples/jquery.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test/route.html
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test/ajax.html
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test/index.html
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test/persistance.html
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test/lib
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test/lib/MIT.LICENSE
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test/lib/jasmine.css
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test/lib/jasmine.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test/lib/jasmine.html.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test/specs
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test/specs/class.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test/specs/controller.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test/specs/events.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test/specs/route.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test/specs/ajax.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test/specs/model.local.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/test/specs/model.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/site
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/site/highlight.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/site/site.md
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/site/highlight.css
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/site/jquery.js
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/site/site.css
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/site/images
+silly asyncMap in gTP /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package/site/images/inheritance.png
+verbose gunzed /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package
+verbose rm'ed /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/package
+verbose renamed [ '/tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/___package.npm/package',
+verbose renamed   '/tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/package' ]
+silly testEngine { name: 'spine',
+silly testEngine   description: 'MVC Framework.',
+silly testEngine   version: '0.0.9',
+silly testEngine   author: { name: 'maccman' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'https://github.com/maccman/spine/blob/master/LICENSE' } ],
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/spine.git' },
+silly testEngine   main: './index.js',
+silly testEngine   devDependencies: { 'spine.app': '~0.0.2' },
+silly testEngine   _id: 'spine@0.0.9',
+silly testEngine   dependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/package' }
+verbose caching /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/package/package.json
+verbose loadDefaults spine@0.0.9
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/package/package.json
+verbose pack /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/package /home/craigb/.npm/spine/0.0.9/package.tgz
+silly makeList /tmp/npm-1323176849051/1323176849609-0.390310883987695/contents/package
+verbose mkdir'ed /home/craigb/.npm/spine/0.0.9
+verbose tar about to write tar and gzip it.
+silly tar args [ '-czvf', '-', '-T', '-' ]
+silly spawning [ 'tar',
+silly spawning   [ '-czvf', '-', '-T', '-' ],
+silly spawning   '/tmp/npm-1323176849051/1323176849609-0.390310883987695/contents' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/.npm/spine/0.0.9/___package.npm'
+verbose mkdir done: /home/craigb/.npm/spine/0.0.9/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/craigb/.npm/spine/0.0.9/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/craigb/.npm/spine/0.0.9/package.tgz' ],
+silly spawning   '/home/craigb/.npm/spine/0.0.9/___package.npm' ]
+silly tar out package/index.js
+silly tar out package/package.json
+silly tar out package/README.md
+silly tar out package/.gitignore
+silly tar out package/LICENSE
+silly tar out package/Cakefile
+silly tar out package/index.html
+silly tar out package/lib/tmpl.js
+silly tar out package/lib/route.js
+silly tar out package/lib/spine.js
+silly tar out package/lib/relation.js
+silly tar out package/lib/manager.js
+silly tar out package/lib/ajax.js
+silly tar out package/lib/local.js
+silly tar out package/lib/list.js
+silly tar out package/lib/tabs.js
+silly tar out package/src/local.coffee
+silly tar out package/src/tabs.coffee
+silly tar out package/src/manager.coffee
+silly tar out package/src/route.coffee
+silly tar out package/src/list.coffee
+silly tar out package/src/tmpl.coffee
+silly tar out package/src/relation.coffee
+silly tar out package/src/ajax.coffee
+silly tar out package/src/spine.coffee
+silly tar out package/examples/route.html
+silly tar out package/examples/jquery.js
+silly tar out package/test/route.html
+silly tar out package/test/ajax.html
+silly tar out package/test/index.html
+silly tar out package/test/persistance.html
+silly tar out package/test/lib/MIT.LICENSE
+silly tar out package/test/lib/jasmine.css
+silly tar out package/test/lib/jasmine.js
+silly tar out package/test/lib/jasmine.html.js
+silly tar out package/test/specs/class.js
+silly tar out package/test/specs/controller.js
+silly tar out package/test/specs/events.js
+silly tar out package/test/specs/route.js
+silly tar out package/test/specs/ajax.js
+silly tar out package/test/specs/model.local.js
+silly tar out package/test/specs/model.js
+silly tar out package/site/highlight.js
+silly tar out package/site/site.md
+silly tar out package/site/highlight.css
+silly tar out package/site/jquery.js
+silly tar out package/site/site.css
+silly tar out package/site/images/inheritance.png
+silly tar exit 0
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/index.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/package.json
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/README.md
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/.gitignore
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/LICENSE
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/Cakefile
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/index.html
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/lib
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/lib/tmpl.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/lib/route.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/lib/spine.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/lib/relation.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/lib/manager.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/lib/ajax.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/lib/local.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/lib/list.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/lib/tabs.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/src
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/src/local.coffee
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/src/tabs.coffee
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/src/manager.coffee
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/src/route.coffee
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/src/list.coffee
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/src/tmpl.coffee
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/src/relation.coffee
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/src/ajax.coffee
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/src/spine.coffee
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/examples
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/examples/route.html
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/examples/jquery.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test/route.html
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test/ajax.html
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test/index.html
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test/persistance.html
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test/lib
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test/lib/MIT.LICENSE
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test/lib/jasmine.css
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test/lib/jasmine.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test/lib/jasmine.html.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test/specs
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test/specs/class.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test/specs/controller.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test/specs/events.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test/specs/route.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test/specs/ajax.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test/specs/model.local.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/test/specs/model.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/site
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/site/highlight.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/site/site.md
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/site/highlight.css
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/site/jquery.js
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/site/site.css
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/site/images
+silly asyncMap in gTP /home/craigb/.npm/spine/0.0.9/___package.npm/package/site/images/inheritance.png
+verbose gunzed /home/craigb/.npm/spine/0.0.9/___package.npm/package
+verbose rm'ed /home/craigb/.npm/spine/0.0.9/package
+verbose renamed [ '/home/craigb/.npm/spine/0.0.9/___package.npm/package',
+verbose renamed   '/home/craigb/.npm/spine/0.0.9/package' ]
+silly testEngine { name: 'spine',
+silly testEngine   description: 'MVC Framework.',
+silly testEngine   version: '0.0.9',
+silly testEngine   author: { name: 'maccman' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'https://github.com/maccman/spine/blob/master/LICENSE' } ],
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/spine.git' },
+silly testEngine   main: './index.js',
+silly testEngine   devDependencies: { 'spine.app': '~0.0.2' },
+silly testEngine   _id: 'spine@0.0.9',
+silly testEngine   dependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: 'c020efa13c6dc99b785e8a00ebfb571e2a8b8288' },
+silly testEngine   scripts: {} }
+verbose caching /home/craigb/.npm/spine/0.0.9/package/package.json
+verbose loadDefaults spine@0.0.9
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 19427
+info shasum c020efa13c6dc99b785e8a00ebfb571e2a8b8288
+info shasum /home/craigb/.npm/spine/0.0.9/package.tgz
+verbose from cache /home/craigb/.npm/spine/0.0.9/package/package.json
+verbose chmod /home/craigb/.npm/spine/0.0.9/package.tgz 644
+verbose chown [ '/home/craigb/.npm/spine/0.0.9/package.tgz', 1000, 1000 ]
+silly resolved [ { name: 'ace',
+silly resolved     description: 'Simple static server.',
+silly resolved     version: '0.0.1',
+silly resolved     author: { name: 'maccman' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'https://github.com/maccman/ace/blob/master/LICENSE' } ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/maccman/ace.git' },
+silly resolved     engine: [ 'node >=0.1.102' ],
+silly resolved     main: './index.js',
+silly resolved     bin: { ace: './index.js' },
+silly resolved     dependencies: { express: '~2.4.3', optimist: '~0.2.6' },
+silly resolved     _id: 'ace@0.0.1',
+silly resolved     devDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.6.3',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'e24816414b4021d67fb1034016fe0bdd287c89ff' },
+silly resolved     scripts: {} },
+silly resolved   { name: 'hem',
+silly resolved     description: 'CommonJS stitcher.',
+silly resolved     version: '0.0.9',
+silly resolved     author: { name: 'maccman' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'https://github.com/maccman/hem/blob/master/LICENSE' } ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/maccman/hem.git' },
+silly resolved     engine: [ 'node >=0.1.102' ],
+silly resolved     main: './lib/hem.js',
+silly resolved     bin: { hem: './bin/hem' },
+silly resolved     dependencies: 
+silly resolved      { eco: '1.1.0-rc-1',
+silly resolved        'uglify-js': '~1.0.7',
+silly resolved        express: '~2.4.6',
+silly resolved        'fast-detective': '~0.0.1',
+silly resolved        optimist: '~0.2.6',
+silly resolved        'coffee-script': '~1.1.2',
+silly resolved        stylus: '~0.15.1' },
+silly resolved     _id: 'hem@0.0.9',
+silly resolved     devDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.6.3',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '276b658c0a5d364fd1107102a326c83dac93f73d' },
+silly resolved     scripts: {} },
+silly resolved   { name: 'jqueryify',
+silly resolved     description: 'jQuery lib for browsers',
+silly resolved     version: '0.0.2',
+silly resolved     repository: { type: 'git', url: 'git://github.com/maccman/jqueryify.git' },
+silly resolved     author: { name: 'Alex MacCaw', email: 'info@eribium.org' },
+silly resolved     engines: { node: '*' },
+silly resolved     main: './index.js',
+silly resolved     _id: 'jqueryify@0.0.2',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.6.3',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'e1252d1063109c71070035f3259aa43c400047d4' },
+silly resolved     scripts: {} },
+silly resolved   { name: 'es5-shimify',
+silly resolved     description: 'ES5-shim lib for browsers',
+silly resolved     version: '0.0.1',
+silly resolved     repository: { type: 'git', url: 'git://github.com/maccman/es5-shimify.git' },
+silly resolved     author: { name: 'Alex MacCaw', email: 'info@eribium.org' },
+silly resolved     engines: { node: '*' },
+silly resolved     main: './index.js',
+silly resolved     _id: 'es5-shimify@0.0.1',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.6.3',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'd8aee4d21db6fc6aa0014417287e1a0609794b90' },
+silly resolved     scripts: {} },
+silly resolved   { name: 'json2ify',
+silly resolved     description: 'JSON2 lib for browsers',
+silly resolved     version: '0.0.1',
+silly resolved     repository: { type: 'git', url: 'git://github.com/maccman/json2.git' },
+silly resolved     author: { name: 'Alex MacCaw', email: 'info@eribium.org' },
+silly resolved     engines: { node: '*' },
+silly resolved     main: './index.js',
+silly resolved     _id: 'json2ify@0.0.1',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.6.3',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '0841e30f2ef492a7e8a65766f945babd208bfa79' },
+silly resolved     scripts: {} },
+silly resolved   { name: 'spine',
+silly resolved     description: 'MVC Framework.',
+silly resolved     version: '0.0.9',
+silly resolved     author: { name: 'maccman' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'https://github.com/maccman/spine/blob/master/LICENSE' } ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/maccman/spine.git' },
+silly resolved     main: './index.js',
+silly resolved     devDependencies: { 'spine.app': '~0.0.2' },
+silly resolved     _id: 'spine@0.0.9',
+silly resolved     dependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.6.3',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'c020efa13c6dc99b785e8a00ebfb571e2a8b8288' },
+silly resolved     scripts: {} } ]
+info into /home/craigb/Desktop/Projects/shop ace@0.0.1
+info into /home/craigb/Desktop/Projects/shop hem@0.0.9
+info into /home/craigb/Desktop/Projects/shop jqueryify@0.0.2
+info into /home/craigb/Desktop/Projects/shop es5-shimify@0.0.1
+info into /home/craigb/Desktop/Projects/shop json2ify@0.0.1
+info into /home/craigb/Desktop/Projects/shop spine@0.0.9
+info installOne ace@0.0.1
+info installOne hem@0.0.9
+info installOne jqueryify@0.0.2
+info installOne es5-shimify@0.0.1
+info installOne json2ify@0.0.1
+info installOne spine@0.0.9
+info unbuild /home/craigb/Desktop/Projects/shop/node_modules/ace
+info unbuild /home/craigb/Desktop/Projects/shop/node_modules/hem
+info unbuild /home/craigb/Desktop/Projects/shop/node_modules/jqueryify
+info unbuild /home/craigb/Desktop/Projects/shop/node_modules/es5-shimify
+info unbuild /home/craigb/Desktop/Projects/shop/node_modules/json2ify
+info unbuild /home/craigb/Desktop/Projects/shop/node_modules/spine
+verbose from cache /home/craigb/.npm/ace/0.0.1/package/package.json
+verbose from cache /home/craigb/.npm/hem/0.0.9/package/package.json
+verbose from cache /home/craigb/.npm/jqueryify/0.0.2/package/package.json
+verbose from cache /home/craigb/.npm/es5-shimify/0.0.1/package/package.json
+verbose from cache /home/craigb/.npm/json2ify/0.0.1/package/package.json
+verbose from cache /home/craigb/.npm/spine/0.0.9/package/package.json
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/Desktop/Projects/shop/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/Desktop/Projects/shop/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/Desktop/Projects/shop/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/Desktop/Projects/shop/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/Desktop/Projects/shop/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/Desktop/Projects/shop/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/Desktop/Projects/shop/node_modules/___ace.npm'
+verbose mkdir done: /home/craigb/Desktop/Projects/shop/node_modules/___ace.npm 755
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/Desktop/Projects/shop/node_modules/___hem.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/Desktop/Projects/shop/node_modules/___jqueryify.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/Desktop/Projects/shop/node_modules/___es5-shimify.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/Desktop/Projects/shop/node_modules/___json2ify.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/craigb/Desktop/Projects/shop/node_modules/___spine.npm'
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/craigb/Desktop/Projects/shop/node_modules/ace
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/craigb/.npm/ace/0.0.1/package.tgz' ],
+silly spawning   '/home/craigb/Desktop/Projects/shop/node_modules/___ace.npm' ]
+verbose mkdir done: /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm 755
+verbose mkdir done: /home/craigb/Desktop/Projects/shop/node_modules/___jqueryify.npm 755
+verbose mkdir done: /home/craigb/Desktop/Projects/shop/node_modules/___es5-shimify.npm 755
+verbose mkdir done: /home/craigb/Desktop/Projects/shop/node_modules/___json2ify.npm 755
+verbose mkdir done: /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/craigb/Desktop/Projects/shop/node_modules/hem
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/craigb/.npm/hem/0.0.9/package.tgz' ],
+silly spawning   '/home/craigb/Desktop/Projects/shop/node_modules/___hem.npm' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/craigb/Desktop/Projects/shop/node_modules/jqueryify
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/craigb/.npm/jqueryify/0.0.2/package.tgz' ],
+silly spawning   '/home/craigb/Desktop/Projects/shop/node_modules/___jqueryify.npm' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/craigb/Desktop/Projects/shop/node_modules/es5-shimify
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/craigb/.npm/es5-shimify/0.0.1/package.tgz' ],
+silly spawning   '/home/craigb/Desktop/Projects/shop/node_modules/___es5-shimify.npm' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/craigb/Desktop/Projects/shop/node_modules/json2ify
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/craigb/.npm/json2ify/0.0.1/package.tgz' ],
+silly spawning   '/home/craigb/Desktop/Projects/shop/node_modules/___json2ify.npm' ]
+silly tar out package/index.js
+silly tar out package/package.json
+silly tar out package/.gitignore
+silly tar out package/LICENSE
+silly tar exit 0
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/craigb/Desktop/Projects/shop/node_modules/spine
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/craigb/.npm/spine/0.0.9/package.tgz' ],
+silly spawning   '/home/craigb/Desktop/Projects/shop/node_modules/___spine.npm' ]
+silly tar out package/package.json
+silly tar out package/README.md
+silly tar out package/.gitignore
+silly tar out package/LICENSE
+silly tar out package/Cakefile
+silly tar out package/lib/compilers.js
+silly tar out package/lib/utils.js
+silly tar out package/lib/dependencies.js
+silly tar out package/lib/resolve.js
+silly tar out package/lib/dependency.js
+silly tar out package/lib/slug.js
+silly tar out package/lib/stitch.js
+silly tar out package/lib/hem.js
+silly tar out package/index.js
+silly tar out package/package.json
+silly tar exit 0
+silly tar out package/index.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___ace.npm/package
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___ace.npm/package/index.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___ace.npm/package/package.json
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___ace.npm/package/.gitignore
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___ace.npm/package/LICENSE
+silly tar out package/package.json
+silly tar out package/lib/stylus.js
+silly tar out package/assets/stitch.eco
+silly tar out package/bin/hem
+silly tar out package/src/dependency.coffee
+silly tar out package/src/slug.coffee
+silly tar out package/src/stylus.coffee
+silly tar out package/src/hem.coffee
+silly tar out package/src/utils.coffee
+silly tar out package/src/resolve.coffee
+silly tar out package/src/compilers.coffee
+silly tar out package/src/stitch.coffee
+silly tar out package/examples/slug.json
+silly tar out package/examples/lib/custom.js
+silly tar out package/examples/public/application.css
+silly tar out package/examples/public/index.html
+silly tar out package/examples/public/application.js
+silly tar exit 0
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___jqueryify.npm/package
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___jqueryify.npm/package/index.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___jqueryify.npm/package/package.json
+verbose gunzed /home/craigb/Desktop/Projects/shop/node_modules/___ace.npm/package
+verbose rm'ed /home/craigb/Desktop/Projects/shop/node_modules/ace
+verbose gunzed /home/craigb/Desktop/Projects/shop/node_modules/___jqueryify.npm/package
+verbose renamed [ '/home/craigb/Desktop/Projects/shop/node_modules/___ace.npm/package',
+verbose renamed   '/home/craigb/Desktop/Projects/shop/node_modules/ace' ]
+verbose rm'ed /home/craigb/Desktop/Projects/shop/node_modules/jqueryify
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___es5-shimify.npm/package
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___es5-shimify.npm/package/index.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___es5-shimify.npm/package/package.json
+verbose renamed [ '/home/craigb/Desktop/Projects/shop/node_modules/___jqueryify.npm/package',
+verbose renamed   '/home/craigb/Desktop/Projects/shop/node_modules/jqueryify' ]
+silly tar out package/examples/css/index.styl
+silly tar out package/examples/app/index.coffee
+silly tar out package/examples/app/controllers/test.coffee
+silly tar exit 0
+silly testEngine { name: 'ace',
+silly testEngine   description: 'Simple static server.',
+silly testEngine   version: '0.0.1',
+silly testEngine   author: { name: 'maccman' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'https://github.com/maccman/ace/blob/master/LICENSE' } ],
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/ace.git' },
+silly testEngine   engine: [ 'node >=0.1.102' ],
+silly testEngine   main: './index.js',
+silly testEngine   bin: { ace: './index.js' },
+silly testEngine   dependencies: { express: '~2.4.3', optimist: '~0.2.6' },
+silly testEngine   _id: 'ace@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /home/craigb/Desktop/Projects/shop/node_modules/ace/package.json
+verbose loadDefaults ace@0.0.1
+silly tar out package/index.js
+silly tar out package/package.json
+silly tar exit 0
+verbose gunzed /home/craigb/Desktop/Projects/shop/node_modules/___es5-shimify.npm/package
+silly testEngine { name: 'jqueryify',
+silly testEngine   description: 'jQuery lib for browsers',
+silly testEngine   version: '0.0.2',
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/jqueryify.git' },
+silly testEngine   author: { name: 'Alex MacCaw', email: 'info@eribium.org' },
+silly testEngine   engines: { node: '*' },
+silly testEngine   main: './index.js',
+silly testEngine   _id: 'jqueryify@0.0.2',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /home/craigb/Desktop/Projects/shop/node_modules/jqueryify/package.json
+verbose loadDefaults jqueryify@0.0.2
+verbose rm'ed /home/craigb/Desktop/Projects/shop/node_modules/es5-shimify
+info preinstall ace@0.0.1
+verbose renamed [ '/home/craigb/Desktop/Projects/shop/node_modules/___es5-shimify.npm/package',
+verbose renamed   '/home/craigb/Desktop/Projects/shop/node_modules/es5-shimify' ]
+info preinstall jqueryify@0.0.2
+verbose from cache /home/craigb/Desktop/Projects/shop/node_modules/ace/package.json
+verbose into /home/craigb/Desktop/Projects/shop/node_modules/ace [ 'express@~2.4.3', 'optimist@~0.2.6' ]
+silly tar out package/index.js
+silly tar out package/package.json
+silly tar out package/README.md
+silly tar out package/.gitignore
+silly tar out package/LICENSE
+silly tar out package/Cakefile
+silly tar out package/index.html
+verbose cache add optimist@~0.2.6
+verbose cache add [ 'optimist@~0.2.6', null ]
+silly cache add: name, spec, args [ undefined, 'optimist@~0.2.6', [ 'optimist@~0.2.6', null ] ]
+verbose parsed url { pathname: 'optimist@~0.2.6',
+verbose parsed url   path: 'optimist@~0.2.6',
+verbose parsed url   href: 'optimist@~0.2.6' }
+silly cache add: name, spec, args [ 'optimist', '~0.2.6', [ 'optimist', '~0.2.6' ] ]
+verbose parsed url { pathname: '~0.2.6', path: '~0.2.6', href: '~0.2.6' }
+info addNamed [ 'optimist', '~0.2.6' ]
+verbose addNamed [ null, '>=0.2.6- <0.3.0-' ]
+silly tar out package/lib/tmpl.js
+silly tar out package/lib/route.js
+silly tar out package/lib/spine.js
+silly tar out package/lib/relation.js
+silly tar out package/lib/manager.js
+silly tar out package/lib/ajax.js
+silly tar out package/lib/local.js
+silly tar out package/lib/list.js
+silly tar out package/lib/tabs.js
+silly tar out package/src/local.coffee
+silly tar out package/src/tabs.coffee
+silly tar out package/src/manager.coffee
+silly tar out package/src/route.coffee
+silly tar out package/src/list.coffee
+silly tar out package/src/tmpl.coffee
+silly tar out package/src/relation.coffee
+silly tar out package/src/ajax.coffee
+silly tar out package/src/spine.coffee
+silly tar out package/examples/route.html
+silly tar out package/examples/jquery.js
+verbose cache add express@~2.4.3
+verbose cache add [ 'express@~2.4.3', null ]
+silly cache add: name, spec, args [ undefined, 'express@~2.4.3', [ 'express@~2.4.3', null ] ]
+verbose parsed url { pathname: 'express@~2.4.3',
+verbose parsed url   path: 'express@~2.4.3',
+verbose parsed url   href: 'express@~2.4.3' }
+silly cache add: name, spec, args [ 'express', '~2.4.3', [ 'express', '~2.4.3' ] ]
+verbose parsed url { pathname: '~2.4.3', path: '~2.4.3', href: '~2.4.3' }
+info addNamed [ 'express', '~2.4.3' ]
+verbose addNamed [ null, '>=2.4.3- <2.5.0-' ]
+silly tar out package/test/route.html
+silly tar out package/test/ajax.html
+silly tar out package/test/index.html
+silly tar out package/test/persistance.html
+silly tar out package/test/lib/MIT.LICENSE
+silly tar out package/test/lib/jasmine.css
+silly tar out package/test/lib/jasmine.js
+verbose from cache /home/craigb/Desktop/Projects/shop/node_modules/jqueryify/package.json
+verbose into /home/craigb/Desktop/Projects/shop/node_modules/jqueryify []
+silly resolved []
+verbose about to build /home/craigb/Desktop/Projects/shop/node_modules/jqueryify
+info build /home/craigb/Desktop/Projects/shop/node_modules/jqueryify
+verbose from cache /home/craigb/Desktop/Projects/shop/node_modules/jqueryify/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/home/craigb/Desktop/Projects/shop/node_modules' ]
+info linkStuff jqueryify@0.0.2
+verbose linkBins jqueryify@0.0.2
+verbose linkMans jqueryify@0.0.2
+verbose rebuildBundles jqueryify@0.0.2
+silly tar out package/test/lib/jasmine.html.js
+silly tar out package/test/specs/class.js
+silly tar out package/test/specs/controller.js
+silly tar out package/test/specs/events.js
+silly tar out package/test/specs/route.js
+silly tar out package/test/specs/ajax.js
+silly tar out package/test/specs/model.local.js
+silly tar out package/test/specs/model.js
+silly tar out package/site/highlight.js
+silly tar out package/site/site.md
+silly tar out package/site/highlight.css
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___json2ify.npm/package
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___json2ify.npm/package/index.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___json2ify.npm/package/package.json
+silly testEngine { name: 'es5-shimify',
+silly testEngine   description: 'ES5-shim lib for browsers',
+silly testEngine   version: '0.0.1',
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/es5-shimify.git' },
+silly testEngine   author: { name: 'Alex MacCaw', email: 'info@eribium.org' },
+silly testEngine   engines: { node: '*' },
+silly testEngine   main: './index.js',
+silly testEngine   _id: 'es5-shimify@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /home/craigb/Desktop/Projects/shop/node_modules/es5-shimify/package.json
+verbose loadDefaults es5-shimify@0.0.1
+info install jqueryify@0.0.2
+silly tar out package/site/jquery.js
+silly tar out package/site/site.css
+silly tar out package/site/images/inheritance.png
+info postinstall jqueryify@0.0.2
+verbose GET optimist
+verbose raw, before any munging optimist
+verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+verbose url resolved https://registry.npmjs.org/optimist
+verbose etag "6S3UMVTR6ZUISPI2VN7VEZ2LI"
+info preinstall es5-shimify@0.0.1
+silly tar exit 0
+verbose gunzed /home/craigb/Desktop/Projects/shop/node_modules/___json2ify.npm/package
+verbose GET express
+verbose raw, before any munging express
+verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+verbose url resolved https://registry.npmjs.org/express
+verbose etag "8PZ9XTRNICPI3GWGPO5SZLY9K"
+verbose installOne cb jqueryify@0.0.2
+verbose rm'ed /home/craigb/Desktop/Projects/shop/node_modules/json2ify
+verbose from cache /home/craigb/Desktop/Projects/shop/node_modules/es5-shimify/package.json
+verbose into /home/craigb/Desktop/Projects/shop/node_modules/es5-shimify []
+silly resolved []
+verbose about to build /home/craigb/Desktop/Projects/shop/node_modules/es5-shimify
+info build /home/craigb/Desktop/Projects/shop/node_modules/es5-shimify
+verbose from cache /home/craigb/Desktop/Projects/shop/node_modules/es5-shimify/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/home/craigb/Desktop/Projects/shop/node_modules' ]
+info linkStuff es5-shimify@0.0.1
+verbose linkBins es5-shimify@0.0.1
+verbose linkMans es5-shimify@0.0.1
+verbose rebuildBundles es5-shimify@0.0.1
+verbose renamed [ '/home/craigb/Desktop/Projects/shop/node_modules/___json2ify.npm/package',
+verbose renamed   '/home/craigb/Desktop/Projects/shop/node_modules/json2ify' ]
+info install es5-shimify@0.0.1
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/package.json
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/README.md
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/.gitignore
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/LICENSE
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/Cakefile
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/lib
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/lib/compilers.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/lib/utils.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/lib/dependencies.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/lib/resolve.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/lib/dependency.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/lib/slug.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/lib/stitch.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/lib/hem.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/lib/stylus.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/assets
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/assets/stitch.eco
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/bin
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/bin/hem
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/src
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/src/dependency.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/src/slug.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/src/stylus.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/src/hem.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/src/utils.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/src/resolve.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/src/compilers.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/src/stitch.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/examples
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/examples/slug.json
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/examples/lib
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/examples/lib/custom.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/examples/public
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/examples/public/application.css
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/examples/public/index.html
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/examples/public/application.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/examples/css
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/examples/css/index.styl
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/examples/app
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/examples/app/index.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/examples/app/controllers
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package/examples/app/controllers/test.coffee
+info postinstall es5-shimify@0.0.1
+silly testEngine { name: 'json2ify',
+silly testEngine   description: 'JSON2 lib for browsers',
+silly testEngine   version: '0.0.1',
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/json2.git' },
+silly testEngine   author: { name: 'Alex MacCaw', email: 'info@eribium.org' },
+silly testEngine   engines: { node: '*' },
+silly testEngine   main: './index.js',
+silly testEngine   _id: 'json2ify@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /home/craigb/Desktop/Projects/shop/node_modules/json2ify/package.json
+verbose loadDefaults json2ify@0.0.1
+verbose installOne cb es5-shimify@0.0.1
+verbose gunzed /home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package
+verbose rm'ed /home/craigb/Desktop/Projects/shop/node_modules/hem
+verbose renamed [ '/home/craigb/Desktop/Projects/shop/node_modules/___hem.npm/package',
+verbose renamed   '/home/craigb/Desktop/Projects/shop/node_modules/hem' ]
+info preinstall json2ify@0.0.1
+verbose from cache /home/craigb/Desktop/Projects/shop/node_modules/json2ify/package.json
+verbose into /home/craigb/Desktop/Projects/shop/node_modules/json2ify []
+silly resolved []
+verbose about to build /home/craigb/Desktop/Projects/shop/node_modules/json2ify
+info build /home/craigb/Desktop/Projects/shop/node_modules/json2ify
+verbose from cache /home/craigb/Desktop/Projects/shop/node_modules/json2ify/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/home/craigb/Desktop/Projects/shop/node_modules' ]
+info linkStuff json2ify@0.0.1
+verbose linkBins json2ify@0.0.1
+verbose linkMans json2ify@0.0.1
+verbose rebuildBundles json2ify@0.0.1
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/index.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/package.json
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/README.md
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/.gitignore
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/LICENSE
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/Cakefile
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/index.html
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/lib
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/lib/tmpl.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/lib/route.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/lib/spine.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/lib/relation.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/lib/manager.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/lib/ajax.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/lib/local.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/lib/list.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/lib/tabs.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/src
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/src/local.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/src/tabs.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/src/manager.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/src/route.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/src/list.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/src/tmpl.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/src/relation.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/src/ajax.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/src/spine.coffee
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/examples
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/examples/route.html
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/examples/jquery.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test/route.html
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test/ajax.html
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test/index.html
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test/persistance.html
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test/lib
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test/lib/MIT.LICENSE
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test/lib/jasmine.css
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test/lib/jasmine.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test/lib/jasmine.html.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test/specs
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test/specs/class.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test/specs/controller.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test/specs/events.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test/specs/route.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test/specs/ajax.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test/specs/model.local.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/test/specs/model.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/site
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/site/highlight.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/site/site.md
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/site/highlight.css
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/site/jquery.js
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/site/site.css
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/site/images
+silly asyncMap in gTP /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package/site/images/inheritance.png
+info install json2ify@0.0.1
+silly testEngine { name: 'hem',
+silly testEngine   description: 'CommonJS stitcher.',
+silly testEngine   version: '0.0.9',
+silly testEngine   author: { name: 'maccman' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'https://github.com/maccman/hem/blob/master/LICENSE' } ],
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/hem.git' },
+silly testEngine   engine: [ 'node >=0.1.102' ],
+silly testEngine   main: './lib/hem.js',
+silly testEngine   bin: { hem: './bin/hem' },
+silly testEngine   dependencies: 
+silly testEngine    { eco: '1.1.0-rc-1',
+silly testEngine      'uglify-js': '~1.0.7',
+silly testEngine      express: '~2.4.6',
+silly testEngine      'fast-detective': '~0.0.1',
+silly testEngine      optimist: '~0.2.6',
+silly testEngine      'coffee-script': '~1.1.2',
+silly testEngine      stylus: '~0.15.1' },
+silly testEngine   _id: 'hem@0.0.9',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/craigb/Desktop/Projects/shop/node_modules/hem/package.json
+verbose loadDefaults hem@0.0.9
+info postinstall json2ify@0.0.1
+verbose gunzed /home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package
+info preinstall hem@0.0.9
+verbose installOne cb json2ify@0.0.1
+verbose rm'ed /home/craigb/Desktop/Projects/shop/node_modules/spine
+verbose renamed [ '/home/craigb/Desktop/Projects/shop/node_modules/___spine.npm/package',
+verbose renamed   '/home/craigb/Desktop/Projects/shop/node_modules/spine' ]
+verbose from cache /home/craigb/Desktop/Projects/shop/node_modules/hem/package.json
+verbose into /home/craigb/Desktop/Projects/shop/node_modules/hem [ 'eco@1.1.0-rc-1',
+verbose into /home/craigb/Desktop/Projects/shop/node_modules/hem   'uglify-js@~1.0.7',
+verbose into /home/craigb/Desktop/Projects/shop/node_modules/hem   'express@~2.4.6',
+verbose into /home/craigb/Desktop/Projects/shop/node_modules/hem   'fast-detective@~0.0.1',
+verbose into /home/craigb/Desktop/Projects/shop/node_modules/hem   'optimist@~0.2.6',
+verbose into /home/craigb/Desktop/Projects/shop/node_modules/hem   'coffee-script@~1.1.2',
+verbose into /home/craigb/Desktop/Projects/shop/node_modules/hem   'stylus@~0.15.1' ]
+verbose cache add eco@1.1.0-rc-1
+verbose cache add [ 'eco@1.1.0-rc-1', null ]
+silly cache add: name, spec, args [ undefined, 'eco@1.1.0-rc-1', [ 'eco@1.1.0-rc-1', null ] ]
+verbose parsed url { pathname: 'eco@1.1.0-rc-1',
+verbose parsed url   path: 'eco@1.1.0-rc-1',
+verbose parsed url   href: 'eco@1.1.0-rc-1' }
+silly cache add: name, spec, args [ 'eco', '1.1.0-rc-1', [ 'eco', '1.1.0-rc-1' ] ]
+verbose parsed url { pathname: '1.1.0-rc-1',
+verbose parsed url   path: '1.1.0-rc-1',
+verbose parsed url   href: '1.1.0-rc-1' }
+info addNamed [ 'eco', '1.1.0-rc-1' ]
+verbose addNamed [ '1.1.0-rc-1', '1.1.0-rc-1' ]
+verbose cache add uglify-js@~1.0.7
+verbose cache add [ 'uglify-js@~1.0.7', null ]
+silly cache add: name, spec, args [ undefined, 'uglify-js@~1.0.7', [ 'uglify-js@~1.0.7', null ] ]
+verbose parsed url { pathname: 'uglify-js@~1.0.7',
+verbose parsed url   path: 'uglify-js@~1.0.7',
+verbose parsed url   href: 'uglify-js@~1.0.7' }
+silly cache add: name, spec, args [ 'uglify-js', '~1.0.7', [ 'uglify-js', '~1.0.7' ] ]
+verbose parsed url { pathname: '~1.0.7', path: '~1.0.7', href: '~1.0.7' }
+info addNamed [ 'uglify-js', '~1.0.7' ]
+verbose addNamed [ null, '>=1.0.7- <1.1.0-' ]
+silly testEngine { name: 'spine',
+silly testEngine   description: 'MVC Framework.',
+silly testEngine   version: '0.0.9',
+silly testEngine   author: { name: 'maccman' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'https://github.com/maccman/spine/blob/master/LICENSE' } ],
+silly testEngine   repository: { type: 'git', url: 'git://github.com/maccman/spine.git' },
+silly testEngine   main: './index.js',
+silly testEngine   devDependencies: { 'spine.app': '~0.0.2' },
+silly testEngine   _id: 'spine@0.0.9',
+silly testEngine   dependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /home/craigb/Desktop/Projects/shop/node_modules/spine/package.json
+verbose loadDefaults spine@0.0.9
+verbose GET eco/1.1.0-rc-1
+verbose raw, before any munging eco/1.1.0-rc-1
+verbose url resolving [ 'https://registry.npmjs.org/', './eco/1.1.0-rc-1' ]
+verbose url resolved https://registry.npmjs.org/eco/1.1.0-rc-1
+verbose etag "1I7HF7RY7VPDPFJNIJ14YJ89Z"
+verbose GET uglify-js
+verbose raw, before any munging uglify-js
+verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js' ]
+verbose url resolved https://registry.npmjs.org/uglify-js
+verbose etag "BWKD74JWJWXOQV4VY85BVOJ3Y"
+info preinstall spine@0.0.9
+verbose cache add express@~2.4.6
+verbose cache add [ 'express@~2.4.6', null ]
+silly cache add: name, spec, args [ undefined, 'express@~2.4.6', [ 'express@~2.4.6', null ] ]
+verbose parsed url { pathname: 'express@~2.4.6',
+verbose parsed url   path: 'express@~2.4.6',
+verbose parsed url   href: 'express@~2.4.6' }
+silly cache add: name, spec, args [ 'express', '~2.4.6', [ 'express', '~2.4.6' ] ]
+verbose parsed url { pathname: '~2.4.6', path: '~2.4.6', href: '~2.4.6' }
+info addNamed [ 'express', '~2.4.6' ]
+verbose addNamed [ null, '>=2.4.6- <2.5.0-' ]
+verbose from cache /home/craigb/Desktop/Projects/shop/node_modules/spine/package.json
+verbose into /home/craigb/Desktop/Projects/shop/node_modules/spine []
+silly resolved []
+verbose about to build /home/craigb/Desktop/Projects/shop/node_modules/spine
+info build /home/craigb/Desktop/Projects/shop/node_modules/spine
+verbose from cache /home/craigb/Desktop/Projects/shop/node_modules/spine/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/home/craigb/Desktop/Projects/shop/node_modules' ]
+info linkStuff spine@0.0.9
+verbose linkBins spine@0.0.9
+verbose linkMans spine@0.0.9
+verbose rebuildBundles spine@0.0.9
+info install spine@0.0.9
+info postinstall spine@0.0.9
+verbose GET express
+verbose raw, before any munging express
+verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+verbose url resolved https://registry.npmjs.org/express
+verbose etag "8PZ9XTRNICPI3GWGPO5SZLY9K"
+verbose installOne cb spine@0.0.9
+verbose cache add fast-detective@~0.0.1
+verbose cache add [ 'fast-detective@~0.0.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'fast-detective@~0.0.1',
+silly cache add: name, spec, args   [ 'fast-detective@~0.0.1', null ] ]
+verbose parsed url { pathname: 'fast-detective@~0.0.1',
+verbose parsed url   path: 'fast-detective@~0.0.1',
+verbose parsed url   href: 'fast-detective@~0.0.1' }
+silly cache add: name, spec, args [ 'fast-detective', '~0.0.1', [ 'fast-detective', '~0.0.1' ] ]
+verbose parsed url { pathname: '~0.0.1', path: '~0.0.1', href: '~0.0.1' }
+info addNamed [ 'fast-detective', '~0.0.1' ]
+verbose addNamed [ null, '>=0.0.1- <0.1.0-' ]
+verbose cache add optimist@~0.2.6
+verbose cache add [ 'optimist@~0.2.6', null ]
+silly cache add: name, spec, args [ undefined, 'optimist@~0.2.6', [ 'optimist@~0.2.6', null ] ]
+verbose parsed url { pathname: 'optimist@~0.2.6',
+verbose parsed url   path: 'optimist@~0.2.6',
+verbose parsed url   href: 'optimist@~0.2.6' }
+silly cache add: name, spec, args [ 'optimist', '~0.2.6', [ 'optimist', '~0.2.6' ] ]
+verbose parsed url { pathname: '~0.2.6', path: '~0.2.6', href: '~0.2.6' }
+info addNamed [ 'optimist', '~0.2.6' ]
+verbose cache add coffee-script@~1.1.2
+verbose cache add [ 'coffee-script@~1.1.2', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'coffee-script@~1.1.2',
+silly cache add: name, spec, args   [ 'coffee-script@~1.1.2', null ] ]
+verbose parsed url { pathname: 'coffee-script@~1.1.2',
+verbose parsed url   path: 'coffee-script@~1.1.2',
+verbose parsed url   href: 'coffee-script@~1.1.2' }
+silly cache add: name, spec, args [ 'coffee-script', '~1.1.2', [ 'coffee-script', '~1.1.2' ] ]
+verbose parsed url { pathname: '~1.1.2', path: '~1.1.2', href: '~1.1.2' }
+info addNamed [ 'coffee-script', '~1.1.2' ]
+verbose addNamed [ null, '>=1.1.2- <1.2.0-' ]
+verbose cache add stylus@~0.15.1
+verbose cache add [ 'stylus@~0.15.1', null ]
+silly cache add: name, spec, args [ undefined, 'stylus@~0.15.1', [ 'stylus@~0.15.1', null ] ]
+verbose parsed url { pathname: 'stylus@~0.15.1',
+verbose parsed url   path: 'stylus@~0.15.1',
+verbose parsed url   href: 'stylus@~0.15.1' }
+silly cache add: name, spec, args [ 'stylus', '~0.15.1', [ 'stylus', '~0.15.1' ] ]
+verbose parsed url { pathname: '~0.15.1', path: '~0.15.1', href: '~0.15.1' }
+info addNamed [ 'stylus', '~0.15.1' ]
+verbose addNamed [ null, '>=0.15.1- <0.16.0-' ]
+verbose GET fast-detective
+verbose raw, before any munging fast-detective
+verbose url resolving [ 'https://registry.npmjs.org/', './fast-detective' ]
+verbose url resolved https://registry.npmjs.org/fast-detective
+verbose etag "7VGF6MUCZSJ97K9FKJV2VRW8I"
+verbose GET coffee-script
+verbose raw, before any munging coffee-script
+verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+verbose url resolved https://registry.npmjs.org/coffee-script
+verbose etag "A781Z0BCGL1DGEDR3Q010T8LI"
+verbose GET stylus
+verbose raw, before any munging stylus
+verbose url resolving [ 'https://registry.npmjs.org/', './stylus' ]
+verbose url resolved https://registry.npmjs.org/stylus
+verbose etag "CDXZSYFVZMNJHFNT4DTLOBVD3"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"1I7HF7RY7VPDPFJNIJ14YJ89Z"',
+silly get cb     date: 'Tue, 06 Dec 2011 13:07:35 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag eco/1.1.0-rc-1 from cache
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8k-v83.6.6.8-linux-ia32-2.6.32-33-generic',
+verbose bin dist   { shasum: '93dad03fc84affd3eff7d5d30bf68daafcd5e702',
+verbose bin dist     tarball: 'http://registry.npmjs.org/eco/-/eco-1.1.0-rc-1.tgz' } ]
+silly testEngine { name: 'eco',
+silly testEngine   description: 'Embedded CoffeeScript templates',
+silly testEngine   author: { name: 'Sam Stephenson' },
+silly testEngine   version: '1.1.0-rc-1',
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'https://github.com/sstephenson/eco/raw/master/LICENSE' } ],
+silly testEngine   main: './lib/index.js',
+silly testEngine   bin: { eco: './bin/eco' },
+silly testEngine   repository: { type: 'git', url: 'git://github.com/sstephenson/eco.git' },
+silly testEngine   dependencies: { strscan: '>=1.0.1', 'coffee-script': '>=1.0.1' },
+silly testEngine   devDependencies: 
+silly testEngine    { nodeunit: '>=0.5.0',
+silly testEngine      express: '>=2.0.0',
+silly testEngine      'uglify-js': '>=1.0.0' },
+silly testEngine   _id: 'eco@1.1.0-rc-1',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/craigb/.npm/eco/1.1.0-rc-1/package/package.json
+verbose loadDefaults eco@1.1.0-rc-1
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"15S0BFNNCO31YUJHT8ZWHOINJ"',
+silly get cb     date: 'Tue, 06 Dec 2011 13:07:35 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '20086' } ]
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"C31TUVO5WKLVCKIJWIHB14XWL"',
+silly get cb     date: 'Tue, 06 Dec 2011 13:07:35 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '9433' } ]
+verbose GET optimist/0.2.8
+verbose raw, before any munging optimist/0.2.8
+verbose url resolving [ 'https://registry.npmjs.org/', './optimist/0.2.8' ]
+verbose url resolved https://registry.npmjs.org/optimist/0.2.8
+verbose etag "6S3UMVTR6ZUISPI2VN7VEZ2LI"
+verbose GET uglify-js/1.0.7
+verbose raw, before any munging uglify-js/1.0.7
+verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js/1.0.7' ]
+verbose url resolved https://registry.npmjs.org/uglify-js/1.0.7
+verbose etag "BWKD74JWJWXOQV4VY85BVOJ3Y"
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"AT09P5GAL0326RY6KNZNDP0N4"',
+silly get cb     date: 'Tue, 06 Dec 2011 13:07:35 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '58257' } ]
+verbose about to build /home/craigb/Desktop/Projects/shop/node_modules/ace
+ERR! error installing ace@0.0.1 Error: No compatible version found: express@'>=2.4.3- <2.5.0-'
+ERR! error installing ace@0.0.1 Valid install targets:
+ERR! error installing ace@0.0.1 ["0.14.0","0.14.1","1.0.0beta","1.0.0beta2","1.0.0rc","1.0.0rc2","1.0.0rc3","1.0.0rc4","1.0.0","1.0.1","1.0.2","1.0.3","1.0.4","1.0.5","1.0.6","1.0.7","2.5.0","2.5.1"]
+ERR! error installing ace@0.0.1     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:424:10)
+ERR! error installing ace@0.0.1     at /usr/local/lib/node_modules/npm/lib/cache.js:406:17
+ERR! error installing ace@0.0.1     at saved (/usr/local/lib/node_modules/npm/lib/utils/npm-registry-client/get.js:136:7)
+ERR! error installing ace@0.0.1     at Object.cb [as oncomplete] (/usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:36:9)
+info unbuild /home/craigb/Desktop/Projects/shop/node_modules/ace
+verbose from cache /home/craigb/Desktop/Projects/shop/node_modules/ace/package.json
+info preuninstall ace@0.0.1
+info uninstall ace@0.0.1
+verbose unbuild ace@0.0.1 [ true,
+verbose unbuild ace@0.0.1   '/home/craigb/Desktop/Projects/shop/node_modules',
+verbose unbuild ace@0.0.1   '/home/craigb/Desktop/Projects/shop/node_modules' ]
+verbose binRoot [ '/home/craigb/Desktop/Projects/shop/node_modules/.bin',
+verbose binRoot   { ace: './index.js' } ]
+info postuninstall ace@0.0.1
+verbose installOne cb ace@0.0.1
+ERR! Error: No compatible version found: express@'>=2.4.3- <2.5.0-'
+ERR! Valid install targets:
+ERR! ["0.14.0","0.14.1","1.0.0beta","1.0.0beta2","1.0.0rc","1.0.0rc2","1.0.0rc3","1.0.0rc4","1.0.0","1.0.1","1.0.2","1.0.3","1.0.4","1.0.5","1.0.6","1.0.7","2.5.0","2.5.1"]
+ERR!     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:424:10)
+ERR!     at /usr/local/lib/node_modules/npm/lib/cache.js:406:17
+ERR!     at saved (/usr/local/lib/node_modules/npm/lib/utils/npm-registry-client/get.js:136:7)
+ERR!     at Object.cb [as oncomplete] (/usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:36:9)
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Linux 2.6.32-33-generic
+ERR! command "node" "/usr/local/bin/npm" "install" "."
+ERR! cwd /home/craigb/Desktop/Projects/shop
+ERR! node -v v0.6.3
+ERR! npm -v 1.0.106
+verbose exit [ 1, true ]

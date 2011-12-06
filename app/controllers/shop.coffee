@@ -40,7 +40,7 @@ class Shop extends Spine.Controller
 
     # Load items for different types
     ShelfItems.fetch()
-    @log(ShelfItems)
+    @log(ShelfItems.all())
 
     $( "#accordion" ).accordion({
       autoHeight: false
