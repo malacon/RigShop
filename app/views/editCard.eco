@@ -1,0 +1,71 @@
+<header>
+  <ul class="nav">
+    <li>Purchase Item</li>
+    <li class="delete button">Delete</li>
+  </ul>
+</header>
+
+<% if @isOriginal: %>
+  <% vcard = @details.default %>
+<% end %>
+<div class="content">
+  <form>
+    Name: <em><%= @name %></em><br />
+    Type: <em><%= (@type.split(' ').map (word) -> word[0].toUpperCase() + word[1..-1].toLowerCase()).join ' ' %></em><br />
+    Quantity: 
+      <select name="quantity" id="quantity">
+        <option value="0">none</option>
+        <% for q, price of @costMatrix: %>
+          <option value="<%= q %>" <% if @quantity is q: %>selected<% end %>><%= q %> for $<%= price %></option>
+        <% end %>
+      </select><br />
+    QR Code ($15)? <input type=checkbox class="cardInput qrcheck" value="<% if @details.qr isnt 'undefined': %><%= @details.qr %><% end %>" name="details.qr" id="qr" /><br />
+    First Name: <input type=text class="cardInput" value="<% if @details.fname isnt 'undefined': %><%= @details.fname %><% end %>" name="details.fname" id="fname" /><br />
+    Last Name: <input type=text class="cardInput" value="<% if @details.lname isnt 'undefined': %><%= @details.lname %><% end %>" name="details.lname" id="lname" /><br />
+    Title: <input type=text class="cardInput" value="<% if @details.title isnt 'undefined': %><%= @details.title %><% end %>" name="details.title" id="title" /><br />
+    Email: <input type=email class="cardInput" value="<% if @details.email isnt 'undefined': %><%= @details.email %><% end %>" name="details.email" id="email" /><br />
+    Direct Phone: <input type=text class="phoneNumber cardInput {mask:'+1.999.999.9999'}" alt="msk" value="<% if @details.telDirect isnt" undefined": %><%= @details.telDirect %><% end %>" name="details.telDirect" id="telDirect" /><br />
+    Cell Phone: <input type=text class="phoneNumber cardInput" value="<% if @details.telCell isnt 'undefined': %><%= @details.telCell %><% end %>" name="details.telCell" id="telCell" /><br />
+    <input type=hidden class="cardInput" value="<% if @details.address isnt 'undefined': %><%= @details.address %><% end %>" name="details.address" id="address" />
+    <input type=hidden class="cardInput" value="<% if @details.city isnt 'undefined': %><%= @details.city %><% end %>" name="details.city" id="city" />
+    <input type=hidden class="cardInput" value="<% if @details.state isnt 'undefined': %><%= @details.state %><% end %>" name="details.state" id="state" />
+    <input type=hidden class="cardInput" value="<% if @details.zip isnt 'undefined': %><%= @details.zip %><% end %>" name="details.zip" id="zip" />
+    <input type=hidden class="cardInput" value="<% if @details.country isnt 'undefined': %><%= @details.country %><% end %>" name="details.country" id="country" />
+    <input type=hidden class="cardInput" value="<% if @details.telCompany isnt 'undefined': %><%= @details.telCompany %><% end %>" name="details.telCompany" id="tel" />
+    <input type=hidden class="cardInput" value="<% if @details.telFax isnt 'undefined': %><%= @details.telFax %><% end %>" name="details.telFax" id="fax" />
+    <input type=hidden class="cardInput" value="<% if @details.website isnt 'undefined': %><%= @details.website %><% end %>" name="details.website" id="website" />
+    
+    <button class="save" type="submit">Save</button>
+    <button class="cancel" type="submit">Cancel</button>
+  </form>
+  <div class="businessCard">
+    <div class="card cardFront">
+      <div class="who">
+        <span class="name"><span class="fname"><% if @details.fname isnt 'undefined': %><%= @details.fname %><% end %></span> <span class="lname"><% if @details.lname isnt 'undefined': %><%= @details.lname %><% end %></span></span><br />
+        <span class="title"><% if @details.title isnt 'undefined': %><%= @details.title %><% end %></span><br />
+        <span class="email"><% if @details.email isnt 'undefined': %><%= @details.email %><% end %></span>
+      </div>
+      <div class="logo"></div>
+      <div class="info">
+        <span class="address"><% if @details.address isnt 'undefined': %><%= @details.address %><% end %></span><span class="divider">|</span><span class="citySt"><% if @details.city isnt 'undefined': %><%= @details.city %><% end %>, <% if @details.state isnt 'undefined': %><%= @details.state %><% end %> <% if @details.zip isnt 'undefined': %><%= @details.zip %><% end %> <% if @details.country isnt 'undefined': %><%= @details.country %><% end %></span><br />
+        <span class="telDirect"><% if @details.telDirect isnt 'undefined': %><%= @details.telDirect %><% end %><span class="numberType"> direct</span></span><span class="divider">|</span><span class="telCompany"><% if @details.telCompany isnt 'undefined': %><%= @details.telCompany %><% end %><span class="numberType"> tel</span></span><span class="divider">|</span><span class="telCell"><% if @details.telCell isnt 'undefined': %><%= @details.telCell %><% end %><span class="numberType"> cell</span></span><br />
+        <span class="telFax"><% if @details.telFax isnt 'undefined': %><%= @details.telFax %><% end %><span class="numberType"> fax</span></span><span class="divider">|</span><span class="website"><% if @details.website isnt 'undefined': %><%= @details.website %><% end %></span>
+      </div>
+    </div>
+    <div class="card cardBack">
+      <div class="qr hidden">
+        <div class="qrcode" style=""></div>
+        <span class="instructions">scan with smart phone.</span>
+      </div>
+      <div class="mottoBox noqr">
+        <div class="bubbles"></div>
+        <div class="motto">always connected.</div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" >
+  jQuery(function($){
+   $(".phoneNumber").mask("+9.999.999.9999");
+  });
+</script>

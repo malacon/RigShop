@@ -1,0 +1,18 @@
+<header>
+  <ul class="nav">
+    <li>Item Description</li>
+    <li class="showCart button">Go Back to Cart</li>
+  </ul>
+</header>
+
+<div class="content">
+  Name: <em><%= @name %></em><br />
+  Type: <em><%= (@type.split(' ').map (word) -> word[0].toUpperCase() + word[1..-1].toLowerCase()).join ' ' %></em><br />
+  Quantity: <em><% if @quantity <= 0: %>n/a<% else: %><%= @quantity %><% end %></em><br />
+  <img src="img/<%= @imgLg %>" />
+  <% if @quantity <= 0: %>
+    <button class="edit button">Purchase</button>
+  <% else: %>
+    <button class="edit button">Edit</button>
+  <% end %>
+</div>

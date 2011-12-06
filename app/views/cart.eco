@@ -1,0 +1,14 @@
+<header>
+  <ul class="nav">
+    <li>Cart</li>
+    <li class="total"></li>
+    <li class="checkout button">Checkout</li>
+    <li class="empty button">Empty Cart</li>
+  </ul>
+</header>
+
+<div class="content">  
+  <ul class="purchasedList">
+  </ul>
+</div>
+

@@ -1,0 +1,24 @@
+<header>
+  <ul class="nav">
+    <li>Purchase Item</li>
+    <li class="delete button">Delete</li>
+  </ul>
+</header>
+
+<div class="content">
+  <form>
+    Name: <em><%= @name %></em><br />
+    Type: <em><%= (@type.split(' ').map (word) -> word[0].toUpperCase() + word[1..-1].toLowerCase()).join ' ' %></em><br />
+    Quantity: <select name="quantity">
+        <option value="0">none</option>
+        <%= @costMatrix %>
+        <% for q, price of @costMatrix: %>
+          <option value="<%= q %>" <% if @quantity is q: %>selected<% end %>><%= q %> for $<%= price %></option>
+        <% end %>
+      </select>
+    
+    <button class="save" type="submit">Save</button>
+    <button class="cancel" type="submit">Cancel</button>
+  </form>
+  <img src="img/<%= @imgLg %>" />
+</div>

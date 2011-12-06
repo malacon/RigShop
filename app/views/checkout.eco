@@ -1,0 +1,38 @@
+<header>
+  <ul class="nav">
+    <li>Checkout</li>
+    <li class="total"></li>
+    <li class="yes button">Place Order</li>
+    <li class="cancel button">Return to Shop</li>
+  </ul>
+</header>
+
+<div class="content">
+  <form id="checkout">
+    <label>
+      <span>Manager</span>
+      <input type="text" name="manager" placeholder="Your Manager's Name" required autofocus />
+    </label> 
+
+    <label>
+      <span>Office</span>
+      <input type="text" name="office" placeholder="Office" required  />
+    </label> 
+
+    <label>
+      <span>Who placed the order?</span>
+      <input type="text" name="who" placeholder="Your Full Name" required  />
+    </label> 
+
+    <label>
+      <span>Email</span>
+      <input type="email" name="email" placeholder="Your Email Address" required  />
+    </label> 
+
+    <div id="response"></div>
+
+  </form>
+  <h3>Items in Cart</h3>
+  <ul class="purchasedList">
+  </ul>
+</div>

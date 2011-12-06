@@ -1,0 +1,14 @@
+<div class="ui-layout-north" style="display: none;">
+  <header>
+    <h1><img src="" />Online Print Order Form</h1>
+    <a class="help"><span>Help<br />Desk</span></a>
+  </header>
+</div>
+<div class="ui-layout-west" style="display: none;">
+  <div id="shelf-accordion" class="basic">
+  </div>
+</div>
+<div class="ui-layout-center" style="display: none;"></div>
+<div id="dialog" title="Basic dialog">
+  <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+</div>

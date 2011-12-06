@@ -1,0 +1,21 @@
+<header>
+</header>
+
+<div id="accordion">
+  <h3>Business Cards</h3>
+  <div>
+    <ul class="cards itemsList"></ul>
+  </div>
+  <h3>Slicks</h3>
+  <div>
+    <ul class="slicks itemsList"></ul>
+  </div>
+  <h3>Profiles</h3>
+  <div>
+    <ul class="profiles itemsList"></ul>
+  </div>
+  <h3>Posters/Folders</h3>
+  <div>
+    <ul class="misc itemsList"></ul>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+TODO
+===
+
+Rework the models
+  Have a container model that holds the base information (Stored in the json file)
+  When a user orders something have it instantiate a new model
+    Models could be generic, cards, etc (have multiple types that are determined in the json file) (eval)
+  When a user clicks on the object in the left it will show all the models they ordered
+
+
+  ShelfItem
+    'ShelfItem', 'name', 'type', 'costMatrix', 'details'
+      costMatrix -> {basic: {quantity: cost}, extras: {type: cost} }
+      details -> {description: text, vcard: {key: value}, images: {small: filename, large: filename}}
+      type -> must be capitalized model name
+    # This is going to take some error checking to make sure wrong values aren't attempted to be pulled
+
+  Item
+    'Item', 'name', 'type', 'images', 'description', 'quantity', 'cost'
+      costMatrix -> do we want to include this or just refer back to the original type?
+      type -> is the key back to ShelfItem
+      config -> recast this to take in the info from ShelfItem
+
+  Card extends Item
+    'Card', 'name', 'type', 'description', 'quantity', 'cost', 'fname', 'lname', 'title', 'email', 'address', 'city', 'state', 'zip', 'country', 'telDirect', 'telCompany', 'telCell', 'telFax', 'website', 'company'

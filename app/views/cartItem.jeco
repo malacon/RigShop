@@ -1,0 +1,40 @@
+ <li class="item <%= @type %>" id="<%= @id %>">
+<% if @type is 'cards': %>
+  Name: <em><%= @name %></em><br />
+  Who: <em><%= @details.fname %> <%= @details.lname %></em><br />
+  Type: <em><%= (@type.split(' ').map (word) -> word[0].toUpperCase() + word[1..-1].toLowerCase()).join ' ' %></em><br />
+  Quantity: <em><%= @quantity %> for $<%= @costMatrix[@quantity] %></em><br />
+  <button class="edit button" id="<%= @id %>">Edit</button>
+  <div class="businessCard hidden showImg" id="img_<%= @id %>">
+    <div class="card cardFront">
+      <div class="who">
+        <span class="name"><span class="fname"><% if @details.fname isnt 'undefined': %><%= @details.fname %><% end %></span> <span class="lname"><% if @details.lname isnt 'undefined': %><%= @details.lname %><% end %></span></span><br />
+        <span class="title"><% if @details.title isnt 'undefined': %><%= @details.title %><% end %></span><br />
+        <span class="email"><% if @details.email isnt 'undefined': %><%= @details.email %><% end %></span>
+      </div>
+      <div class="logo"></div>
+      <div class="info">
+        <span class="address"><% if @details.address isnt 'undefined': %><%= @details.address %><% end %></span><span class="divider">|</span><span class="citySt"><% if @details.city isnt 'undefined': %><%= @details.city %><% end %>, <% if @details.state isnt 'undefined': %><%= @details.state %><% end %> <% if @details.zip isnt 'undefined': %><%= @details.zip %><% end %> <% if @details.country isnt 'undefined': %><%= @details.country %><% end %></span><br />
+        <span class="telDirect"><% if @details.telDirect isnt 'undefined': %><%= @details.telDirect %><% end %><span class="numberType"> direct</span></span><span class="divider">|</span><span class="telCompany"><% if @details.telCompany isnt 'undefined': %><%= @details.telCompany %><% end %><span class="numberType"> tel</span></span><span class="divider">|</span><span class="telCell"><% if @details.telCell isnt 'undefined': %><%= @details.telCell %><% end %><span class="numberType"> cell</span></span><br />
+        <span class="telFax"><% if @details.telFax isnt 'undefined': %><%= @details.telFax %><% end %><span class="numberType"> fax</span></span><span class="divider">|</span><span class="website"><% if @details.website isnt 'undefined': %><%= @details.website %><% end %></span>
+      </div>
+    </div>
+    <div class="card cardBack">
+      <div class="qr hidden">
+        <div class="qrcode" style=""></div>
+        <span class="instructions">scan with smart phone.</span>
+      </div>
+      <div class="mottoBox noqr">
+        <div class="bubbles"></div>
+        <div class="motto">always connected.</div>
+      </div>
+    </div>
+  </div>
+<% else: %>
+  Name: <em><%= @name %></em><br />
+  Type: <em><%= (@type.split(' ').map (word) -> word[0].toUpperCase() + word[1..-1].toLowerCase()).join ' ' %></em><br />
+  Quantity: <em><%= @quantity %> for $<%= @costMatrix[@quantity] %></em><br />
+  <button class="edit button" id="<%= @id %>">Edit</button>
+  <img class="hidden showImg" src="img/<%= @imgLg %>" id="img_<%= @id %>" />
+<% end %>
+</li>
